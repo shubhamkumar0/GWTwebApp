@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact name="shubham:GWT">
+    <output-path>$PROJECT_DIR$/out/artifacts/shubham_GWT</output-path>
+    <root id="root">
+      <element id="gwt-compiler-output" facet="shubham/gwt/GWT" />
+    </root>
+  </artifact>
+</component>
