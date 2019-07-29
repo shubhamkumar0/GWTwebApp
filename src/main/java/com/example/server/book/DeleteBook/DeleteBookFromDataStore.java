@@ -18,7 +18,7 @@ public class DeleteBookFromDataStore {
             Connection conn = connect();
             PreparedStatement ps = conn.prepareStatement(sql);
             ps.setString(1, deleteBookRequest.getBookId());
-            ResultSet rs=ps.executeQuery();
+            ps.executeUpdate();
             conn.close();
             return true;
             } catch (SQLException ex) {

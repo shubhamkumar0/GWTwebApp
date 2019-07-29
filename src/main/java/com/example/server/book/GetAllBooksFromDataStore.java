@@ -11,7 +11,6 @@ public class GetAllBooksFromDataStore {
 
     public List<BookDetails> getBooksDetails() {
         List<BookDetails> a = getBooksFromDb();
-//        String b = a.get(0).getBookName();
         return a;
     }
 
@@ -31,19 +30,8 @@ public class GetAllBooksFromDataStore {
             Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery("SELECT bookName FROM BookDetailsTable LIMIT 0 , 10; ");
             assert(rs!=null);
-            while ( rs.next() ) {
-//                BookDetails bookDetails = new BookDetails();
-//                String BId = rs.getString("bookId");
+            while(rs.next()) {
                 String BName = rs.getString("bookName");
-//                String AName = rs.getString("authorName");
-//                Float ratings = rs.getFloat("ratings");
-//                boolean isAvail = rs.getBoolean("isAvailable");
-//                bookDetails.setBookId(BId);
-//                bookDetails.setBookName(BName);
-//                bookDetails.setAuthorName(AName);
-//                bookDetails.setRatings(ratings);
-//                bookDetails.setIsAvailable(isAvail);
-//                book.add(bookDetails);
                 bookNames.add(BName);
             }
             conn.close();
@@ -91,7 +79,7 @@ public class GetAllBooksFromDataStore {
             Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery("SELECT * FROM BookDetailsTable LIMIT 0 , 10; ");
             assert(rs!=null);
-            while ( rs.next() ) {
+            while (rs.next()) {
                 BookDetails bookDetails = new BookDetails();
                 String BId = rs.getString("bookId");
                 String BName = rs.getString("bookName");
@@ -104,7 +92,6 @@ public class GetAllBooksFromDataStore {
                 bookDetails.setRatings(ratings);
                 bookDetails.setIsAvailable(isAvail);
                 books.add(bookDetails);
-//                bookNames.add(BName);
             }
             conn.close();
            return books;

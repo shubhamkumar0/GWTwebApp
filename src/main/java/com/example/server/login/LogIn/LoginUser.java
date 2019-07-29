@@ -15,10 +15,11 @@ public class LoginUser {
             ps.setString(1, email);
             ps.setString(2, password);
             ResultSet rs=ps.executeQuery();
-            conn.close();
-            if(rs == null) {
+            if(!rs.next()) {
+                conn.close();
                 return false;
             } else {
+                conn.close();
                 return true;
             }
         } catch (SQLException e) {

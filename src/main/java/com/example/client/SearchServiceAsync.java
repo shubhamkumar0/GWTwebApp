@@ -1,10 +1,9 @@
 package com.example.client;
 
-import com.example.server.search.SearchRequest;
-import com.example.server.search.SearchResponse;
-import com.google.gwt.user.client.rpc.AsyncCallback;
+import com.example.shared.search.SearchRequest;
+import com.example.shared.search.SearchResponse;
 
 
 public interface SearchServiceAsync {
-    void search(SearchRequest searchRequest, AsyncCallback<SearchResponse> async);
+    void search(SearchRequest searchRequest, com.google.gwt.user.client.rpc.AsyncCallback<SearchResponse> arg4);
 }

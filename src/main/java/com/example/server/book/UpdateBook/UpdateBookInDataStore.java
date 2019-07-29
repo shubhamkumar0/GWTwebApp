@@ -1,29 +1,49 @@
-//package com.example.server.book.UpdateBook;
-//
-//import com.example.server.book.DeleteBook.DeleteBookFromDataStore;
-//import com.example.shared.book.UpdateBookRequest;
-//import com.example.shared.book.UpdateBookResponse;
-//
-//public class UpdateBookInDataStore {
-//    public Boolean updateBookInDb(UpdateBookRequest updateBookRequest) {
-//        return update(updateBookRequest);
-//    }
-//
-//    private Boolean update(UpdateBookRequest updateBookRequest) {
-//        DeleteBookFromDataStore deleteBookFromDataStore = new DeleteBookFromDataStore();
-//
-////        UpdateBookResponse updateBookResponse = new UpdateBookResponse();
-////        EntityManager em = getEntityManagerFactory().createEntityManager();
-////        BookDetailsTable bookDetailsTable = em.find(BookDetailsTable.class,updateBookRequest.getBookDetails().getBookId());
-////        em.getTransaction().begin();
-////        bookDetailsTable.setBookId(updateBookRequest.getBookDetails().getBookId());
-////        bookDetailsTable.setBookName(updateBookRequest.getBookDetails().getBookName());
-////        bookDetailsTable.setAuthorName(updateBookRequest.getBookDetails().getAuthorName());
-////        bookDetailsTable.setRatings(updateBookRequest.getBookDetails().getRatings());
-////        bookDetailsTable.setBookId(updateBookRequest.getBookDetails().getBookId());
-////        em.getTransaction().commit();
-////        updateBookResponse.setUpdated(true);
-////        updateBookResponse.setBookId(updateBookRequest.getBookDetails().getBookId());
-//        return null;
-//    }
-//}
+package com.example.server.book.UpdateBook;
+
+import com.example.shared.book.UpdateBookRequest;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class UpdateBookInDataStore {
+    public Boolean update(String orig_id, UpdateBookRequest updateBookRequest) {
+        return updateBookInDb(orig_id, updateBookRequest);
+    }
+
+    private boolean updateBookInDb(String orig_id, UpdateBookRequest updateBookRequest) {
+        String sql = "Update BookDetailsTable set " +
+                "bookId=?," +
+                " bookName=?," +
+                " authorName=?," +
+                " ratings=?" +
+                " where bookId=?";
+        try {
+            Connection conn = connect();
+            PreparedStatement ps = conn.prepareStatement(sql);
+            ps.setString(1, updateBookRequest.getBookDetails().getBookId());
+            ps.setString(2, updateBookRequest.getBookDetails().getBookName());
+            ps.setString(3, updateBookRequest.getBookDetails().getAuthorName());
+            ps.setFloat(4, updateBookRequest.getBookDetails().getRatings());
+            ps.setString(5,orig_id);
+            ps.executeUpdate();
+            conn.close();
+            return true;
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+        }
+        return false;
+    }
+
+    private Connection connect() {
+        Connection conn = null;
+        try {
+            conn = DriverManager.getConnection(
+                    "jdbc:mysql://localhost:3306/kiTabDb","root","root123");
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        return conn;
+    }
+}

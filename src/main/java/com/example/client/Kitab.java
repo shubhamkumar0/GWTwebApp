@@ -1,26 +1,21 @@
 package com.example.client;
 
+import com.example.shared.search.SearchRequest;
+import com.example.shared.search.SearchResponse;
 import com.example.shared.book.AddBookRequest;
 import com.example.shared.book.BookDetails;
 import com.example.shared.book.UpdateBookRequest;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
-import com.google.gwt.dom.client.Document;
-import com.google.gwt.dom.client.Style;
-import com.google.gwt.dom.client.Text;
 import com.google.gwt.event.dom.client.ChangeEvent;
 import com.google.gwt.event.dom.client.ChangeHandler;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
-import com.google.gwt.event.shared.EventBus;
-import com.google.gwt.event.shared.SimpleEventBus;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.*;
 import java.util.List;
 
-import static com.google.gwt.dom.client.Style.Unit.EM;
-import static com.google.gwt.dom.client.Style.Unit.PCT;
 import static java.lang.Float.valueOf;
 
 public class Kitab implements EntryPoint {
@@ -57,7 +52,6 @@ public class Kitab implements EntryPoint {
         final PasswordTextBox password = new PasswordTextBox();
         private LoginServiceAsync loginServiceAsync = GWT.create(LoginService.class);
 
-
         public RegisterPage() {
             RootPanel.get("signup").clear();
             RootPanel.get("login").clear();
@@ -70,11 +64,15 @@ public class Kitab implements EntryPoint {
                     loginServiceAsync.signUpUser(name.getText(),email.getText(),password.getText(),
                             new AsyncCallback<Boolean>() {
                                 public void onFailure(Throwable caught) {
-                                    Window.alert("signup failed.");
+                                    Window.alert("Sign Up failed.");
                                 }
 
                                 public void onSuccess(Boolean result) {
-                                    getBooks();
+                                    if(result == false) {
+                                        Window.alert("Sign Up failed.");
+                                    } else {
+                                        getBooks();
+                                    }
                                 }
                             });
                 }
@@ -94,6 +92,7 @@ public class Kitab implements EntryPoint {
             password.setText("password");
             RootPanel.get("login").clear();
             RootPanel.get("signup").clear();
+//            RootPanel.get("slot0").add(back);
             RootPanel.get("slot2").add(email);
             RootPanel.get("slot3").add(password);
             RootPanel.get("slot4").add(button);
@@ -103,11 +102,11 @@ public class Kitab implements EntryPoint {
                     loginServiceAsync.validateUser(email.getText(), password.getText(),
                             new AsyncCallback<Boolean>() {
                                 public void onFailure(Throwable caught) {
-                                    Window.alert("login failed.");
+                                    Window.alert("Login failed.");
                                 }
                                 public void onSuccess(Boolean result) {
                                     if(result == false) {
-                                        Window.alert("login failed.");
+                                        Window.alert("Login failed.");
                                     } else {
                                         getBooks();
                                     }
@@ -122,7 +121,7 @@ public class Kitab implements EntryPoint {
         BookServiceAsync bookServiceAsync = GWT.create(BookService.class);
         bookServiceAsync.getAllBooksName(new AsyncCallback<List<String>>() {
             public void onFailure(Throwable caught) {
-                Window.alert("Sorry, could not fetch books :(");
+                Window.alert("Sorry, could not fetch books :|");
             }
 
             public void onSuccess(List<String> result) {
@@ -135,11 +134,18 @@ public class Kitab implements EntryPoint {
 
         ListBox books = new ListBox();
         final Button addbook = new Button("addbook");
+        final Button search = new Button("Search");
+        TextBox search_what = new TextBox();
+        final SearchServiceAsync searchServiceAsync = GWT.create(SearchService.class);
+
         MainPage(List<String> bookNames) {
-            RootPanel.get("slot1").clear();
-            RootPanel.get("slot2").clear();
-            RootPanel.get("slot3").clear();
-            RootPanel.get("slot4").clear();
+            cleareverything();
+            search_what.setText("Search by Book name.");
+            RootPanel.get("slot0").add(search_what);
+            RootPanel.get("bookName").add(books);
+            RootPanel.get("addbook").add(addbook);
+            RootPanel.get("slot1").add(search);
+
             for( String name: bookNames) {
                 books.addItem(name);
             }
@@ -152,7 +158,7 @@ public class Kitab implements EntryPoint {
                             new AsyncCallback<BookDetails>() {
                         public void onFailure(Throwable caught) {
                             //figure out the best message to show here
-                            Window.alert("Sorry, could not fetch book details. :(");
+                            Window.alert("Sorry, could not fetch book details :|");
                         }
 
                         public void onSuccess(BookDetails result) {
@@ -172,8 +178,29 @@ public class Kitab implements EntryPoint {
                 }
             });
 
-            RootPanel.get("bookName").add(books);
-            RootPanel.get("addbook").add(addbook);
+            search.addClickHandler(new ClickHandler() {
+                @Override
+                public void onClick(ClickEvent event) {
+                    SearchRequest searchRequest = new SearchRequest();
+                    searchRequest.setBookName(search_what.getText());
+                    searchServiceAsync.search(searchRequest,
+                            new AsyncCallback<SearchResponse>() {
+                                public void onFailure(Throwable caught) {
+                                    Window.alert("Searching book failed.");
+                                }
+
+                                public void onSuccess(SearchResponse result) {
+                                    //Window.alert("Added the book to library. You can search for it using the book name!");
+                                    if(result.getIsavailable() == true) {
+                                        MyDialog myDialog = new MyDialog(result.getBookDetails());
+                                        myDialog.show();
+                                    } else {
+                                        Window.alert("Book not found! :3");
+                                    }
+                                }
+                            });
+                }
+            });
         }
     }
 
@@ -199,7 +226,7 @@ public class Kitab implements EntryPoint {
             add.addClickHandler(new ClickHandler() {
                 public void onClick(ClickEvent event) {
                     if(rate[0] == "How would you rate this book?") {
-                        Window.alert("Please choose a valid rating!");
+                        Window.alert("Please choose a valid rating! :O");
                     } else {
                         BookDetails bookDetails = new BookDetails();
                         bookDetails.setBookId(bookId.getText());
@@ -212,12 +239,13 @@ public class Kitab implements EntryPoint {
                         bookServiceAsync.addBook(book_to_be_added,
                                 new AsyncCallback<Boolean>() {
                                     public void onFailure(Throwable caught) {
-                                        Window.alert("adding book failed.");
+                                        Window.alert("Adding book failed :(");
                                     }
 
                                     public void onSuccess(Boolean result) {
                                         Window.alert("Added the book to library. You can search for it using the book name!");
-                                        backtomain();
+                                        cleareverything();
+                                        getBooks();
                                     }
                                 });
                     }
@@ -244,6 +272,7 @@ public class Kitab implements EntryPoint {
                 @Override
                 public void onClick(ClickEvent event) {
                     MyDialog.this.hide();
+                    cleareverything();
                     UpdateBook updateBook = new UpdateBook(bookDetails);
                 }
             });
@@ -270,6 +299,7 @@ public class Kitab implements EntryPoint {
     }
 
     private static class UpdateBook extends Composite {
+        String orig_id;
         TextBox bookName = new TextBox();
         TextBox bookId = new TextBox();
         TextBox authorName = new TextBox();
@@ -278,9 +308,11 @@ public class Kitab implements EntryPoint {
         final Button update = new Button("Update!");
         final BookServiceAsync bookServiceAsync = GWT.create(BookService.class);
         final String[] rate = new String[1];
+        final Button back = new Button("Go back");
 
 
         public UpdateBook(BookDetails bookDetails) {
+            orig_id = bookDetails.getBookId();
             bookName.setText(bookDetails.getBookName());
             bookId.setText(bookDetails.getBookId());
             authorName.setText(bookDetails.getAuthorName());
@@ -288,11 +320,12 @@ public class Kitab implements EntryPoint {
             ratings = ratinglistfunc(ratings, rate);
             populaterootpanel(bookId,bookName,authorName,ratings);
             RootPanel.get("slot4").add(update);
+            RootPanel.get("addbook").add(back);
 
             update.addClickHandler(new ClickHandler() {
                 public void onClick(ClickEvent event) {
                     if(rate[0] == "How would you rate this book?") {
-                        Window.alert("Please choose a valid rating!");
+                        Window.alert("Please choose a valid rating! :O");
                     } else {
                         BookDetails bookDetails = new BookDetails();
                         bookDetails.setBookId(bookId.getText());
@@ -302,18 +335,30 @@ public class Kitab implements EntryPoint {
                         bookDetails.setIsAvailable(true);
                         final UpdateBookRequest book_to_be_updated = new UpdateBookRequest();
                         book_to_be_updated.setBookDetails(bookDetails);
-                        bookServiceAsync.updateBook(book_to_be_updated,
+                        bookServiceAsync.updateBook(orig_id, book_to_be_updated,
                                 new AsyncCallback<Boolean>() {
                                     public void onFailure(Throwable caught) {
-                                        Window.alert("updating book failed.");
+                                        Window.alert("Updating book failed :(");
                                     }
 
                                     public void onSuccess(Boolean result) {
-                                        Window.alert("Updated in the library. You can search for it using the book name!");
-                                        backtomain();
+                                        if( result == true) {
+                                            Window.alert("Updated in the library. You can search for it using the book name!");
+                                            cleareverything();
+                                            getBooks();
+                                        } else {
+                                            Window.alert("Updating failed :(");
+                                        }
                                     }
                                 });
                     }
+                }
+            });
+            back.addClickHandler(new ClickHandler() {
+                @Override
+                public void onClick(ClickEvent event) {
+                    cleareverything();
+                    getBooks();
                 }
             });
         }
@@ -346,18 +391,21 @@ public class Kitab implements EntryPoint {
                 if(ratings.getSelectedIndex() != 0) {
                     rate[0] = ratings.getValue(ratings.getSelectedIndex());
                 } else {
-                    Window.alert("Please choose a valid rating!");
+                    Window.alert("Please choose a valid rating! :O");
                 }
             }
         });
         return ratings;
     }
 
-    private static void backtomain() {
+    private static void cleareverything() {
+        RootPanel.get("slot0").clear();
+        RootPanel.get("slot1").clear();
+        RootPanel.get("slot2").clear();
+        RootPanel.get("slot3").clear();
+        RootPanel.get("slot4").clear();
         RootPanel.get("bookName").clear();
         RootPanel.get("addbook").clear();
-        RootPanel.get("slot0").clear();
-        getBooks();
     }
 }
 

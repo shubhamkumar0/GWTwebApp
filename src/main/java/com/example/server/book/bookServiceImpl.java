@@ -1,6 +1,7 @@
 package com.example.server.book;
 
 import com.example.client.BookService;
+import com.example.server.book.UpdateBook.UpdateBookInDataStore;
 import com.example.shared.book.*;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 import com.example.server.book.AddBook.AddBookToDataStore;
@@ -25,7 +26,6 @@ public class bookServiceImpl extends RemoteServiceServlet implements BookService
     @Override
     public List<String> getAllBooksName() {
         GetAllBooksFromDataStore getAllBooksFromDataStore = new GetAllBooksFromDataStore();
-
         return getAllBooksFromDataStore.getBookNames();
     }
     @Override
@@ -42,21 +42,23 @@ public class bookServiceImpl extends RemoteServiceServlet implements BookService
 
     //update_book
     @Override
-    public Boolean updateBook(UpdateBookRequest updateBookRequest) {
-        Boolean added = false;
-        DeleteBookFromDataStore deleteBookFromDataStore = new DeleteBookFromDataStore();
-        DeleteBookRequest deleteBookRequest = new DeleteBookRequest();
-        deleteBookRequest.setBookId(updateBookRequest.getBookDetails().getBookId());
-        Boolean deleted = deleteBookFromDataStore.deleteBookFromDb(deleteBookRequest);
-        if(deleted) {
-            AddBookRequest addBookRequest = new AddBookRequest();
-            addBookRequest.setBookDetails(updateBookRequest.getBookDetails());
-            AddBookToDataStore addBookToDataStore = new AddBookToDataStore();
-            added = addBookToDataStore.addBookToDb(addBookRequest);
-        } else{
-            return false;
-        }
-        return added;
+    public Boolean updateBook(String orig_id, UpdateBookRequest updateBookRequest) {
+        UpdateBookInDataStore updateBookInDataStore = new UpdateBookInDataStore();
+        return updateBookInDataStore.update(orig_id, updateBookRequest);
+//        Boolean added = false;
+//        DeleteBookFromDataStore deleteBookFromDataStore = new DeleteBookFromDataStore();
+//        DeleteBookRequest deleteBookRequest = new DeleteBookRequest();
+//        deleteBookRequest.setBookId(updateBookRequest.getBookDetails().getBookId());
+//        Boolean deleted = deleteBookFromDataStore.deleteBookFromDb(deleteBookRequest);
+//        if(deleted) {
+//            AddBookRequest addBookRequest = new AddBookRequest();
+//            addBookRequest.setBookDetails(updateBookRequest.getBookDetails());
+//            AddBookToDataStore addBookToDataStore = new AddBookToDataStore();
+//            added = addBookToDataStore.addBookToDb(addBookRequest);
+//        } else{
+//            return false;
+//        }
+//        return added;
     }
 
     //delete_book
