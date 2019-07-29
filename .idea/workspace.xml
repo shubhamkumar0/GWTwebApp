@@ -6,7 +6,40 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b66b58af-9c30-4eff-9645-65cdd9f90783" name="Default Changelist" comment="" />
+    <list default="true" id="b66b58af-9c30-4eff-9645-65cdd9f90783" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/BookServiceAsync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/BookServiceAsync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/book/DeleteBook/DeleteBookFromDataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/book/DeleteBook/DeleteBookFromDataStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/book/UpdateBook/UpdateBookInDataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/book/UpdateBook/UpdateBookInDataStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/BookServiceAsync.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/BookServiceAsync.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/book/DeleteBook/DeleteBookFromDataStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/book/DeleteBook/DeleteBookFromDataStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/book/UpdateBook/UpdateBookInDataStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/book/bookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/book/bookServiceImpl.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,17 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/BookService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+            <state relative-caret-position="-273">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,7 +80,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/book/BookDetails.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/Kitab.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/book/DeleteBookRequest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -65,12 +101,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/Kitab.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/book/UpdateBookRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/BookService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
               <folding>
-                <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,57 +124,52 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="221" column="30" selection-start-line="221" selection-start-column="30" selection-end-line="221" selection-end-column="30" />
+            <state relative-caret-position="142">
+              <caret line="219" column="53" selection-start-line="219" selection-start-column="53" selection-end-line="219" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1354#1527#0" expanded="true" />
-                <element signature="e#1526#1527#0" expanded="true" />
-                <element signature="e#1561#1743#0" expanded="true" />
-                <element signature="e#1742#1743#0" expanded="true" />
-                <element signature="e#2454#3084#0" expanded="true" />
+                <element signature="e#1481#1654#0" expanded="true" />
+                <element signature="e#1653#1654#0" expanded="true" />
+                <element signature="e#1688#1870#0" expanded="true" />
+                <element signature="e#1869#1870#0" expanded="true" />
+                <element signature="e#2581#3211#0" expanded="true" />
                 <element signature="e#3331#3332#0" expanded="true" />
                 <element signature="e#3406#3407#0" expanded="true" />
-                <element signature="e#3083#3084#0" expanded="true" />
-                <element signature="e#3848#4680#0" expanded="true" />
+                <element signature="e#3210#3211#0" expanded="true" />
+                <element signature="e#3936#4768#0" expanded="true" />
                 <element signature="e#5056#5057#0" expanded="true" />
                 <element signature="e#5158#5159#0" expanded="true" />
-                <element signature="e#4679#4680#0" expanded="true" />
+                <element signature="e#4767#4768#0" expanded="true" />
                 <element signature="e#5610#5611#0" expanded="true" />
                 <element signature="e#5681#5682#0" expanded="true" />
                 <element signature="e#5739#5740#0" expanded="true" />
                 <element signature="e#5811#5812#0" expanded="true" />
-                <element signature="e#6357#6553#0" expanded="true" />
-                <element signature="e#6552#6553#0" expanded="true" />
-                <element signature="e#7631#7846#0" expanded="true" />
-                <element signature="e#7845#7846#0" expanded="true" />
-                <element signature="e#8256#8257#0" expanded="true" />
-                <element signature="e#8358#8359#0" expanded="true" />
-                <element signature="e#8863#9013#0" expanded="true" />
-                <element signature="e#9012#9013#0" expanded="true" />
+                <element signature="e#6739#6989#0" expanded="true" />
+                <element signature="e#6988#6989#0" expanded="true" />
+                <element signature="e#7939#9715#0" expanded="true" />
+                <element signature="e#8722#8723#0" expanded="true" />
+                <element signature="e#8829#8830#0" expanded="true" />
+                <element signature="e#9714#9715#0" expanded="true" />
+                <element signature="e#10096#10246#0" expanded="true" />
+                <element signature="e#10245#10246#0" expanded="true" />
+                <element signature="e#10169#10463#0" expanded="true" />
+                <element signature="e#10462#10463#0" expanded="true" />
+                <element signature="e#12375#13843#0" expanded="true" />
+                <element signature="e#12365#12366#0" expanded="true" />
+                <element signature="e#12472#12473#0" expanded="true" />
+                <element signature="e#13842#13843#0" expanded="true" />
+                <element signature="e#14615#14977#0" expanded="true" />
+                <element signature="e#14976#14977#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/book/AddBookRequest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/BookServiceAsync.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding>
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="300">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,13 +178,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/AddBook/AddBookToDataStore.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/DeleteBook/DeleteBookFromDataStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="345">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding>
-                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/UpdateBook/UpdateBookInDataStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="40" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -175,6 +225,7 @@
       <find>CompositeExample</find>
       <find>prepare</find>
       <find>SignUpUserImpl</find>
+      <find>capilla</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -187,8 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/server/login/logInServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/login/SignUp/SignUserUp.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/login/SignUp/SignUpUserImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/LoginService-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/client/LoginServiceAsync.java" />
@@ -233,9 +282,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/server/login/LogIn/LoginUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/client/LoginServiceAsync.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/AddBook/AddBookToDataStore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/client/BookService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/DeleteBook/DeleteBookFromDataStore.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/client/BookServiceAsync.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/client/BookService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/UpdateBook/UpdateBookInDataStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/public/Kitab.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java" />
       </list>
@@ -328,6 +379,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shubham" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shubham" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -359,7 +419,40 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="DeleteBook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shubham" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shubham" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="UpdateBook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shubham" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shubham" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shubham" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shubham" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="LogIn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shubham" type="b2602c69:ProjectViewProjectNode" />
@@ -482,7 +575,7 @@
       <option name="presentableId" value="Default" />
       <updated>1563866695461</updated>
       <workItem from="1563866699802" duration="69135000" />
-      <workItem from="1564135816070" duration="20663000" />
+      <workItem from="1564135816070" duration="29635000" />
     </task>
     <servers />
   </component>
@@ -519,7 +612,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89798000" />
+    <option name="totallyTimeSpent" value="98770000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -532,6 +625,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1439" height="811" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -543,7 +637,7 @@
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32962447" />
       <window_info anchor="bottom" id="Spring" order="1" weight="0.32962447" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.49892628" visible="true" weight="0.8122392" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49892628" weight="0.11265647" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="4" sideWeight="0.4996421" weight="0.32962447" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5010737" side_tool="true" weight="0.42141864" />
@@ -551,11 +645,11 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32962447" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.4996421" weight="0.5132128" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.4996421" weight="0.44228095" />
       <window_info anchor="bottom" id="Application Servers" order="11" sideWeight="0.4996421" weight="0.32962447" />
       <window_info anchor="bottom" id="Message" order="12" />
       <window_info anchor="bottom" id="Find" order="13" weight="0.32962447" />
-      <window_info anchor="bottom" id="Debug" order="14" sideWeight="0.49892628" weight="0.37552157" />
+      <window_info active="true" anchor="bottom" id="Debug" order="14" sideWeight="0.49892628" visible="true" weight="0.077885956" />
       <window_info anchor="bottom" id="Cvs" order="15" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="16" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="17" weight="0.04172462" />
@@ -635,12 +729,6 @@
           <properties />
           <option name="timeStamp" value="70" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java</url>
-          <line>215</line>
-          <properties />
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -648,14 +736,6 @@
     <SUITE FILE_PATH="coverage/shubham$Unnamed_JavaScript.dat" NAME="Unnamed JavaScript Coverage Results" MODIFIED="1564033463968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/annotations/com/example/client/LoginServiceAsync.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/login/LogInRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/login/LogInResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -691,28 +771,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/book/UpdateBookRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/book/UpdateBookResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/book/DeleteBookRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/book/DeleteBookResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -836,27 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/GetAllBooksFromDataStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="107" column="13" lean-forward="true" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/login/LogIn/LoginUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-          <folding>
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/LoginApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
@@ -902,26 +940,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/BookServiceAsync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/BookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -929,13 +947,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/ListBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-844">
-          <caret line="505" column="56" lean-forward="true" selection-start-line="505" selection-start-column="56" selection-end-line="505" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -967,37 +978,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/book/BookDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/Kitab.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/event/dom/client/ClickHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/AddBook/AddBookToDataStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#284#285#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1015,43 +999,168 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/book/BookDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/AddBook/AddBookToDataStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/login/LogIn/LoginUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/book/DeleteBookResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/GetAllBooksFromDataStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="107" column="13" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/book/UpdateBookRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/book/DeleteBookRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/UpdateBook/UpdateBookInDataStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="40" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/DeleteBook/DeleteBookFromDataStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="-273">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/Kitab.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/BookServiceAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/ListBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6884">
+          <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+          <folding>
+            <element signature="e#15426#15427#0" expanded="true" />
+            <element signature="e#15468#15469#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="221" column="30" selection-start-line="221" selection-start-column="30" selection-end-line="221" selection-end-column="30" />
+        <state relative-caret-position="142">
+          <caret line="219" column="53" selection-start-line="219" selection-start-column="53" selection-end-line="219" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1354#1527#0" expanded="true" />
-            <element signature="e#1526#1527#0" expanded="true" />
-            <element signature="e#1561#1743#0" expanded="true" />
-            <element signature="e#1742#1743#0" expanded="true" />
-            <element signature="e#2454#3084#0" expanded="true" />
+            <element signature="e#1481#1654#0" expanded="true" />
+            <element signature="e#1653#1654#0" expanded="true" />
+            <element signature="e#1688#1870#0" expanded="true" />
+            <element signature="e#1869#1870#0" expanded="true" />
+            <element signature="e#2581#3211#0" expanded="true" />
             <element signature="e#3331#3332#0" expanded="true" />
             <element signature="e#3406#3407#0" expanded="true" />
-            <element signature="e#3083#3084#0" expanded="true" />
-            <element signature="e#3848#4680#0" expanded="true" />
+            <element signature="e#3210#3211#0" expanded="true" />
+            <element signature="e#3936#4768#0" expanded="true" />
             <element signature="e#5056#5057#0" expanded="true" />
             <element signature="e#5158#5159#0" expanded="true" />
-            <element signature="e#4679#4680#0" expanded="true" />
+            <element signature="e#4767#4768#0" expanded="true" />
             <element signature="e#5610#5611#0" expanded="true" />
             <element signature="e#5681#5682#0" expanded="true" />
             <element signature="e#5739#5740#0" expanded="true" />
             <element signature="e#5811#5812#0" expanded="true" />
-            <element signature="e#6357#6553#0" expanded="true" />
-            <element signature="e#6552#6553#0" expanded="true" />
-            <element signature="e#7631#7846#0" expanded="true" />
-            <element signature="e#7845#7846#0" expanded="true" />
-            <element signature="e#8256#8257#0" expanded="true" />
-            <element signature="e#8358#8359#0" expanded="true" />
-            <element signature="e#8863#9013#0" expanded="true" />
-            <element signature="e#9012#9013#0" expanded="true" />
+            <element signature="e#6739#6989#0" expanded="true" />
+            <element signature="e#6988#6989#0" expanded="true" />
+            <element signature="e#7939#9715#0" expanded="true" />
+            <element signature="e#8722#8723#0" expanded="true" />
+            <element signature="e#8829#8830#0" expanded="true" />
+            <element signature="e#9714#9715#0" expanded="true" />
+            <element signature="e#10096#10246#0" expanded="true" />
+            <element signature="e#10245#10246#0" expanded="true" />
+            <element signature="e#10169#10463#0" expanded="true" />
+            <element signature="e#10462#10463#0" expanded="true" />
+            <element signature="e#12375#13843#0" expanded="true" />
+            <element signature="e#12365#12366#0" expanded="true" />
+            <element signature="e#12472#12473#0" expanded="true" />
+            <element signature="e#13842#13843#0" expanded="true" />
+            <element signature="e#14615#14977#0" expanded="true" />
+            <element signature="e#14976#14977#0" expanded="true" />
           </folding>
         </state>
       </provider>

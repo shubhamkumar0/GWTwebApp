@@ -4,20 +4,37 @@ package com.example.server.book.DeleteBook;
 import com.example.shared.book.DeleteBookRequest;
 import com.example.shared.book.DeleteBookResponse;
 
+import java.sql.*;
+
 public class DeleteBookFromDataStore {
-    public DeleteBookResponse deleteBookFromDb(DeleteBookRequest deleteBookRequest) {
+    public Boolean deleteBookFromDb(DeleteBookRequest deleteBookRequest) {
         return delete(deleteBookRequest);
     }
 
-    private DeleteBookResponse delete(DeleteBookRequest deleteBookRequest) {
-//        DeleteBookResponse deleteBookResponse = new DeleteBookResponse();
-//        EntityManager em = getEntityManagerFactory().createEntityManager();
-//        BookDetailsTable bookDetailsTable = em.find(BookDetailsTable.class,deleteBookRequest.getBookId());
-//        em.getTransaction().begin();
-//        em.remove(bookDetailsTable);
-//        em.getTransaction().commit();
-//        deleteBookResponse.setDeleted(true);
-//        deleteBookResponse.setBookId(deleteBookRequest.getBookId());
-        return null;
+    private Boolean delete(DeleteBookRequest deleteBookRequest) {
+        String sql="Delete from BookDetailsTable where bookId=?";
+
+        try {
+            Connection conn = connect();
+            PreparedStatement ps = conn.prepareStatement(sql);
+            ps.setString(1, deleteBookRequest.getBookId());
+            ResultSet rs=ps.executeQuery();
+            conn.close();
+            return true;
+            } catch (SQLException ex) {
+            ex.printStackTrace();
+        }
+        return false;
+    }
+
+    private Connection connect() {
+        Connection conn = null;
+        try {
+            conn = DriverManager.getConnection(
+                    "jdbc:mysql://localhost:3306/kiTabDb","root","root123");
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        return conn;
     }
 }

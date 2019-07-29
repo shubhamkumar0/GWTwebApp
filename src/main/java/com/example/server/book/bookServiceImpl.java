@@ -5,7 +5,7 @@ import com.example.shared.book.*;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 import com.example.server.book.AddBook.AddBookToDataStore;
 import com.example.server.book.DeleteBook.DeleteBookFromDataStore;
-import com.example.server.book.UpdateBook.UpdateBookInDataStore;
+
 
 import java.awt.print.Book;
 import java.util.ArrayList;
@@ -42,14 +42,26 @@ public class bookServiceImpl extends RemoteServiceServlet implements BookService
 
     //update_book
     @Override
-    public UpdateBookResponse updateBook(UpdateBookRequest updateBookRequest) {
-        UpdateBookInDataStore updateBookInDataStore = new UpdateBookInDataStore();
-        return updateBookInDataStore.updateBookInDb(updateBookRequest);
+    public Boolean updateBook(UpdateBookRequest updateBookRequest) {
+        Boolean added = false;
+        DeleteBookFromDataStore deleteBookFromDataStore = new DeleteBookFromDataStore();
+        DeleteBookRequest deleteBookRequest = new DeleteBookRequest();
+        deleteBookRequest.setBookId(updateBookRequest.getBookDetails().getBookId());
+        Boolean deleted = deleteBookFromDataStore.deleteBookFromDb(deleteBookRequest);
+        if(deleted) {
+            AddBookRequest addBookRequest = new AddBookRequest();
+            addBookRequest.setBookDetails(updateBookRequest.getBookDetails());
+            AddBookToDataStore addBookToDataStore = new AddBookToDataStore();
+            added = addBookToDataStore.addBookToDb(addBookRequest);
+        } else{
+            return false;
+        }
+        return added;
     }
 
     //delete_book
     @Override
-    public DeleteBookResponse deleteBook(DeleteBookRequest deleteBookRequest) {
+    public Boolean deleteBook(DeleteBookRequest deleteBookRequest) {
         DeleteBookFromDataStore deleteBookFromDataStore = new DeleteBookFromDataStore();
         return deleteBookFromDataStore.deleteBookFromDb(deleteBookRequest);
     }
