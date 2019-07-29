@@ -17,7 +17,7 @@ public interface BookService extends RemoteService {
     //this is the interface of data access layer
     List<BookDetails> getAllBooks();
     List<String> getAllBooksName();
-    AddBookResponse addBook(AddBookRequest addBookRequest);
+    Boolean addBook(AddBookRequest addBookRequest);
     UpdateBookResponse updateBook(UpdateBookRequest updateBookRequest);
     DeleteBookResponse deleteBook(DeleteBookRequest deleteBookRequest);
     BookDetails getBookDetailsByBookName(String bookId);

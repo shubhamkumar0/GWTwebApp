@@ -16,7 +16,7 @@ public interface BookServiceAsync {
 
     void getAllBooksName(com.google.gwt.user.client.rpc.AsyncCallback<List<String>> arg4);
 
-    void addBook(AddBookRequest addBookRequest, com.google.gwt.user.client.rpc.AsyncCallback<AddBookResponse> arg4);
+    void addBook(AddBookRequest addBookRequest, com.google.gwt.user.client.rpc.AsyncCallback<Boolean> arg4);
 
     void updateBook(UpdateBookRequest updateBookRequest, com.google.gwt.user.client.rpc.AsyncCallback<UpdateBookResponse> arg4);
 

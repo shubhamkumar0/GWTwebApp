@@ -35,7 +35,7 @@ public class bookServiceImpl extends RemoteServiceServlet implements BookService
     }
     //add_book
     @Override
-    public AddBookResponse addBook(AddBookRequest addBookRequest) {
+    public Boolean addBook(AddBookRequest addBookRequest) {
         AddBookToDataStore addBookToDataStore = new AddBookToDataStore();
         return addBookToDataStore.addBookToDb(addBookRequest);
     }
