@@ -1,5 +1,6 @@
 package com.example.client;
 
+import com.example.shared.login.UserDetails;
 import com.example.shared.search.SearchRequest;
 import com.example.shared.search.SearchResponse;
 import com.example.shared.book.AddBookRequest;
@@ -7,13 +8,13 @@ import com.example.shared.book.BookDetails;
 import com.example.shared.book.UpdateBookRequest;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
-import com.google.gwt.event.dom.client.ChangeEvent;
-import com.google.gwt.event.dom.client.ChangeHandler;
-import com.google.gwt.event.dom.client.ClickEvent;
-import com.google.gwt.event.dom.client.ClickHandler;
+import com.google.gwt.event.dom.client.*;
+import com.google.gwt.user.client.Cookies;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.*;
+
+import java.util.Date;
 import java.util.List;
 
 import static java.lang.Float.valueOf;
@@ -108,6 +109,10 @@ public class Kitab implements EntryPoint {
                                     if(result == false) {
                                         Window.alert("Login failed.");
                                     } else {
+//                                        String sessionID = UserDetails.getSessionId();
+//                                        final long DURATION = 1000 * 60 * 60 * 24;
+//                                        Date expires = new Date(System.currentTimeMillis() + DURATION);
+//                                        Cookies.setCookie("sid", sessionID, expires, null, "/", false);
                                         getBooks();
                                     }
                                 }
@@ -140,7 +145,7 @@ public class Kitab implements EntryPoint {
 
         MainPage(List<String> bookNames) {
             cleareverything();
-            search_what.setText("Search by Book name.");
+
             RootPanel.get("slot0").add(search_what);
             RootPanel.get("bookName").add(books);
             RootPanel.get("addbook").add(addbook);
@@ -149,26 +154,7 @@ public class Kitab implements EntryPoint {
             for( String name: bookNames) {
                 books.addItem(name);
             }
-            books.addChangeHandler(new ChangeHandler() {
-
-                @Override
-                public void onChange(ChangeEvent event) {
-                    BookServiceAsync bookServiceAsync = GWT.create(BookService.class);
-                    bookServiceAsync.getBookDetailsByBookName(books.getValue(books.getSelectedIndex()),
-                            new AsyncCallback<BookDetails>() {
-                        public void onFailure(Throwable caught) {
-                            //figure out the best message to show here
-                            Window.alert("Sorry, could not fetch book details :|");
-                        }
-
-                        public void onSuccess(BookDetails result) {
-                            MyDialog myDialog = new MyDialog(result);
-                            myDialog.show();
-                        }
-                    });
-                    //Window.alert(books.getValue(books.getSelectedIndex()));
-                }
-            });
+            getBookDetails(books);
 
             addbook.addClickHandler(new ClickHandler() {
                 @Override
@@ -178,30 +164,100 @@ public class Kitab implements EntryPoint {
                 }
             });
 
-            search.addClickHandler(new ClickHandler() {
+            //To use in updating list functionality
+            search_what.addKeyUpHandler(new KeyUpHandler() {
                 @Override
-                public void onClick(ClickEvent event) {
-                    SearchRequest searchRequest = new SearchRequest();
-                    searchRequest.setBookName(search_what.getText());
-                    searchServiceAsync.search(searchRequest,
-                            new AsyncCallback<SearchResponse>() {
-                                public void onFailure(Throwable caught) {
-                                    Window.alert("Searching book failed.");
-                                }
-
-                                public void onSuccess(SearchResponse result) {
-                                    //Window.alert("Added the book to library. You can search for it using the book name!");
-                                    if(result.getIsavailable() == true) {
-                                        MyDialog myDialog = new MyDialog(result.getBookDetails());
-                                        myDialog.show();
-                                    } else {
-                                        Window.alert("Book not found! :3");
-                                    }
-                                }
-                            });
+                public void onKeyUp(KeyUpEvent event) {
+                    UpdateList(search_what.getText());
                 }
             });
+
+                    search.addClickHandler(new ClickHandler() {
+                        @Override
+                        public void onClick(ClickEvent event) {
+                            if(search_what.getText() != "") {
+                                SearchRequest searchRequest = new SearchRequest();
+                                searchRequest.setBookName(search_what.getText());
+                                searchServiceAsync.search(searchRequest,
+                                        new AsyncCallback<SearchResponse>() {
+                                            public void onFailure(Throwable caught) {
+                                                Window.alert("Searching book failed.");
+                                            }
+
+                                            public void onSuccess(SearchResponse result) {
+                                                //Window.alert("Added the book to library. You can search for it using the book name!");
+                                                if (result.getIsavailable() == true) {
+
+                                                    //TO-DO
+                                                    MyDialog myDialog = new MyDialog(result.getBookDetails().get(0));
+                                                    int left = Window.getClientWidth()/ 2;
+                                                    int top = Window.getClientHeight()/ 2;
+                                                    myDialog.setPopupPosition(left, top);
+                                                    myDialog.show();
+                                                } else {
+                                                    Window.alert("Book not found! :3");
+                                                }
+                                            }
+                                        });
+                            } else {
+                                Window.alert("Search for what? A brain! :/");
+                            }
+                    }
+                    });
         }
+    }
+
+    private static void UpdateList(String text) {
+        if(text != "") {
+            RootPanel.get("bookName").clear();
+            final ListBox updatedList = new ListBox();
+            final SearchServiceAsync searchServiceAsync = GWT.create(SearchService.class);
+            SearchRequest searchRequest = new SearchRequest();
+            searchRequest.setBookName(text);
+            searchServiceAsync.search(searchRequest,
+                    new AsyncCallback<SearchResponse>() {
+                        public void onFailure(Throwable caught) {
+                            Window.alert("Searching book failed.");
+                        }
+                        public void onSuccess(SearchResponse result) {
+                            if (result.getIsavailable() == true) {
+                                for(BookDetails book : result.getBookDetails()) {
+                                    updatedList.addItem(book.getBookName());
+                                }
+                            } else {
+                                Window.alert("Book not found! :3");
+                            }
+                        }
+                    });
+            getBookDetails(updatedList);
+            RootPanel.get("bookName").add(updatedList);
+        }
+    }
+
+    private static void getBookDetails(final ListBox books) {
+
+        books.addChangeHandler(new ChangeHandler() {
+
+            @Override
+            public void onChange(ChangeEvent event) {
+                BookServiceAsync bookServiceAsync = GWT.create(BookService.class);
+                bookServiceAsync.getBookDetailsByBookName(books.getValue(books.getSelectedIndex()),
+                        new AsyncCallback<BookDetails>() {
+                            public void onFailure(Throwable caught) {
+                                //figure out the best message to show here
+                                Window.alert("Sorry, could not fetch book details :|");
+                            }
+
+                            public void onSuccess(BookDetails result) {
+                                MyDialog myDialog = new MyDialog(result);
+                                int left = Window.getClientWidth()/ 2;
+                                int top = Window.getClientHeight()/ 2;
+                                myDialog.setPopupPosition(left, top);
+                                myDialog.show();
+                            }
+                        });
+            }
+        });
     }
 
     private static class Book_Adder extends Composite {
@@ -259,10 +315,12 @@ public class Kitab implements EntryPoint {
         VerticalPanel panel = new VerticalPanel();
 
         public MyDialog(final BookDetails bookDetails) {
+            setText("Book Details");
             setAnimationEnabled(true);
             setGlassEnabled(true);
             Button ok = new Button("OK");
             Button update = new Button("Update");
+//            Button next = new Button("Next->");
             ok.addClickHandler(new ClickHandler() {
                 public void onClick(ClickEvent event) {
                     MyDialog.this.hide();
@@ -276,20 +334,24 @@ public class Kitab implements EntryPoint {
                     UpdateBook updateBook = new UpdateBook(bookDetails);
                 }
             });
-            Label bookId = new Label(bookDetails.getBookId());
-            Label bookName = new Label(bookDetails.getBookName());
-            Label AName = new Label(bookDetails.getAuthorName());
+//            next.addClickHandler(new ClickHandler() {
+//                @Override
+//                public void onClick(ClickEvent event) {
+//
+//                }
+//            });
+            Label id = new Label(bookDetails.getBookId());
+            Label name = new Label(bookDetails.getBookName());
+            Label author = new Label(bookDetails.getAuthorName());
             Label rating = new Label(String.valueOf(bookDetails.getRatings()));
             Label isAvail = new Label(String.valueOf(bookDetails.getIsAvailable()));
-
             panel.setHeight("100");
             panel.setWidth("300");
             panel.setSpacing(10);
-            panel.setHorizontalAlignment(HasHorizontalAlignment.ALIGN_RIGHT);
-            panel.setVerticalAlignment(HasVerticalAlignment.ALIGN_BOTTOM);
-            panel.add(bookId);
-            panel.add(bookName);
-            panel.add(AName);
+            panel.setHorizontalAlignment(HasHorizontalAlignment.ALIGN_CENTER);
+            panel.add(id);
+            panel.add(name);
+            panel.add(author);
             panel.add(rating);
             panel.add(isAvail);
             panel.add(ok);

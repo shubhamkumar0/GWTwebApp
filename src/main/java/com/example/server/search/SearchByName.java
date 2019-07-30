@@ -5,6 +5,8 @@ import com.example.shared.search.SearchRequest;
 import com.example.shared.search.SearchResponse;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class SearchByName {
     public SearchResponse search(SearchRequest searchRequest) {
@@ -12,13 +14,16 @@ public class SearchByName {
     }
 
     private SearchResponse searchDb(SearchRequest searchRequest) {
-        String sql = "Select * from BookDetailstable where bookName=?";
+        assert(searchRequest.getBookName() != null);
+        String searchThis = searchRequest.getBookName()+"%";
+        String sql = "Select * from BookDetailstable where bookName like ?";
         SearchResponse searchResponse = new SearchResponse();
         try {
             Connection conn = connect();
             PreparedStatement ps = conn.prepareStatement(sql);
-            ps.setString(1, searchRequest.getBookName());
+            ps.setString(1, searchThis);
             ResultSet rs=ps.executeQuery();
+            List<BookDetails> books = new ArrayList<>();
             assert(rs!=null);
             while(rs.next()) {
                 BookDetails temp = new BookDetails();
@@ -28,8 +33,9 @@ public class SearchByName {
                 temp.setRatings(rs.getFloat("ratings"));
                 temp.setIsAvailable(rs.getBoolean("isAvailable"));
                 searchResponse.setIsavailable(true);
-                searchResponse.setBookDetails(temp);
+                books.add(temp);
             }
+            searchResponse.setBookDetails(books);
         } catch (SQLException e) {
             e.printStackTrace();
             searchResponse.setIsavailable(false);

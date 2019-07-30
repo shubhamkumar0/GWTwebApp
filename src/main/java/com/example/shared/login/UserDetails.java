@@ -1,9 +1,20 @@
-package com.example.server.login.Tables;
+package com.example.shared.login;
 
-public class UserDetails {
+import com.google.gwt.user.client.rpc.IsSerializable;
+
+public class UserDetails implements IsSerializable {
     private static String name;
     private static String email;
     private static String password;
+    private static String SessionId;
+
+    public static String getSessionId() {
+        return SessionId;
+    }
+
+    public static void setSessionId(String sessionId) {
+        SessionId = sessionId;
+    }
 
     public static String getName() {
         return name;
@@ -28,4 +39,6 @@ public class UserDetails {
     public static void setPassword(String password) {
         UserDetails.password = password;
     }
+
+
 }

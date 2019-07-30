@@ -1,7 +1,22 @@
 body {
-    background-color: white;
-    color: black;
-    font-family: Arial, sans-serif;
+    background-color: mediumpurple;
+    color: rebeccapurple;
+    font-family: "Comic Sans MS", sans-serif;
     font-size: small;
-    margin: 8px;
+    margin: 10px;
 }
+
+.gwt-DialogBox .Caption {
+    padding: 4px 4px 4px 8px;
+    cursor: default;
+
+}
+
+.gwt-DialogBox .dialogContent {
+}
+
+.gwt-DialogBox .dialogMiddleCenter {
+    padding: 3px;
+    background: white;
+}
+

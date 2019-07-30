@@ -7,39 +7,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b66b58af-9c30-4eff-9645-65cdd9f90783" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/server/search/SearchByName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shared/search/SearchRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shared/search/SearchResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/BookServiceAsync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/BookServiceAsync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Kitab.gwt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Kitab.gwt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/css/dataTables.bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/css/dataTables.bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/css/dataTables.bootstrap4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/css/dataTables.bootstrap4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/css/dataTables.foundation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/css/dataTables.foundation.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/css/dataTables.jqueryui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/css/dataTables.jqueryui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/css/dataTables.semanticui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/css/dataTables.semanticui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/css/jquery.dataTables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/css/jquery.dataTables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/images/sort_asc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/images/sort_asc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/images/sort_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/images/sort_desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/images/sort_desc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/js/dataTables.bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/js/dataTables.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/js/dataTables.bootstrap4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/js/dataTables.bootstrap4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/js/dataTables.foundation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/js/dataTables.foundation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/js/dataTables.jqueryui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/js/dataTables.jqueryui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/js/dataTables.semanticui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/js/dataTables.semanticui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/js/jquery.dataTables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/DataTables-1.10.18/js/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/datatables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/datatables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/datatables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/DataTables/datatables.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/SearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/SearchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/SearchServiceAsync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/SearchServiceAsync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/LoginApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/LoginServiceAsync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/LoginServiceAsync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/public/Kitab.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/public/Kitab.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/public/Kitab.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/public/Kitab.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/book/DeleteBook/DeleteBookFromDataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/book/DeleteBook/DeleteBookFromDataStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/public/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/public/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/public/scripts/signup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/public/signup.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/book/GetAllBooksFromDataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/book/GetAllBooksFromDataStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/book/UpdateBook/UpdateBookInDataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/book/UpdateBook/UpdateBookInDataStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/login/LogIn/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/login/LogIn/LoginUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/search/SearchRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/search/SearchResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/search/searchServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/search/searchServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/BookServiceAsync.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/BookServiceAsync.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/login/Tables/SessionTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/login/Tables/UserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shared/login/UserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/search/SearchByName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/search/SearchByName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shared/search/SearchResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shared/search/SearchResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder$2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder$2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$1$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog$2.class" afterDir="false" />
@@ -47,15 +80,17 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/SearchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/SearchService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/SearchServiceAsync.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/SearchServiceAsync.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/book/DeleteBook/DeleteBookFromDataStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/book/DeleteBook/DeleteBookFromDataStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/book/bookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/book/bookServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/search/SearchRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/search/SearchResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/search/searchServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/search/searchServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/book/GetAllBooksFromDataStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/book/GetAllBooksFromDataStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/login/Tables/SessionTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/login/Tables/UserDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/login/logInServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/login/logInServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/search/SearchByName.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/search/SearchByName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shared/search/SearchResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shared/search/SearchResponse.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,136 +120,87 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-525">
-              <caret line="109" column="44" lean-forward="true" selection-start-line="109" selection-start-column="44" selection-end-line="109" selection-end-column="44" />
+            <state relative-caret-position="145">
+              <caret line="317" column="33" selection-start-line="317" selection-start-column="33" selection-end-line="317" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1181#1354#0" expanded="true" />
-                <element signature="e#1353#1354#0" expanded="true" />
-                <element signature="e#1388#1570#0" expanded="true" />
-                <element signature="e#1569#1570#0" expanded="true" />
-                <element signature="e#2280#3126#0" expanded="true" />
-                <element signature="e#3125#3126#0" expanded="true" />
-                <element signature="e#3899#4731#0" expanded="true" />
+                <element signature="e#1125#1298#0" expanded="true" />
+                <element signature="e#1297#1298#0" expanded="true" />
+                <element signature="e#1332#1514#0" expanded="true" />
+                <element signature="e#1513#1514#0" expanded="true" />
+                <element signature="e#2224#3073#0" expanded="true" />
+                <element signature="e#3072#3073#0" expanded="true" />
+                <element signature="e#3846#5064#0" expanded="true" />
                 <element signature="e#5056#5057#0" expanded="true" />
                 <element signature="e#5158#5159#0" expanded="true" />
-                <element signature="e#4730#4731#0" expanded="true" />
+                <element signature="e#5063#5064#0" expanded="true" />
                 <element signature="e#5610#5611#0" expanded="true" />
                 <element signature="e#5681#5682#0" expanded="true" />
                 <element signature="e#5739#5740#0" expanded="true" />
                 <element signature="e#5811#5812#0" expanded="true" />
-                <element signature="e#7708#7709#0" expanded="true" />
-                <element signature="e#7823#7824#0" expanded="true" />
-                <element signature="e#9386#10959#0" expanded="true" />
+                <element signature="e#6670#6859#0" expanded="true" />
+                <element signature="e#6858#6859#0" expanded="true" />
+                <element signature="e#6906#8660#0" expanded="true" />
+                <element signature="e#8659#8660#0" expanded="true" />
+                <element signature="e#10093#10094#0" expanded="true" />
+                <element signature="e#10179#10180#0" expanded="true" />
+                <element signature="e#10051#10932#0" expanded="true" />
+                <element signature="e#10931#10932#0" expanded="true" />
+                <element signature="e#11770#13342#0" expanded="true" />
                 <element signature="e#8722#8723#0" expanded="true" />
                 <element signature="e#8829#8830#0" expanded="true" />
-                <element signature="e#10958#10959#0" expanded="true" />
-                <element signature="e#11340#11490#0" expanded="true" />
-                <element signature="e#11489#11490#0" expanded="true" />
-                <element signature="e#11528#11816#0" expanded="true" />
-                <element signature="e#11815#11816#0" expanded="true" />
-                <element signature="e#13734#15321#0" expanded="true" />
+                <element signature="e#13341#13342#0" expanded="true" />
+                <element signature="e#15497#15647#0" expanded="true" />
+                <element signature="e#15646#15647#0" expanded="true" />
+                <element signature="e#15685#15973#0" expanded="true" />
+                <element signature="e#15972#15973#0" expanded="true" />
+                <element signature="e#17947#19787#0" expanded="true" />
                 <element signature="e#14843#14844#0" expanded="true" />
                 <element signature="e#14962#14963#0" expanded="true" />
-                <element signature="e#15320#15321#0" expanded="true" />
-                <element signature="e#15357#15562#0" expanded="true" />
-                <element signature="e#15561#15562#0" expanded="true" />
-                <element signature="e#16425#16790#0" expanded="true" />
-                <element signature="e#16789#16790#0" expanded="true" />
+                <element signature="e#19786#19787#0" expanded="true" />
+                <element signature="e#19823#20028#0" expanded="true" />
+                <element signature="e#20027#20028#0" expanded="true" />
+                <element signature="e#20891#21256#0" expanded="true" />
+                <element signature="e#21255#21256#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/LoginServiceAsync.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Kitab.gwt.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="60">
+              <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java">
+        <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/HasVerticalAlignment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="94">
+              <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/GetAllBooksFromDataStore.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/Kitab.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/login/LogIn/LoginUser.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/Kitab.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-201">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/search/SearchByName.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/search/searchServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/BookService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="89">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -248,6 +234,8 @@
       <find>capilla</find>
       <find>cleareverything</find>
       <find>MainPage()</find>
+      <find>search</find>
+      <find>addbook</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -260,9 +248,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/client/SearchService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/LoginService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/BookService.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/login/SignUp/SignUpController.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/login/SignUpController.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/login/LogUserController.java" />
@@ -280,7 +265,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/public/scripts/signup.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/shared/logInServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/shared/SignUpRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/Kitab.gwt.xml" />
         <option value="$PROJECT_DIR$/target/generated-sources/annotations/com/example/client/BookServiceAsync.java" />
         <option value="$PROJECT_DIR$/target/generated-sources/annotations/com/example/client/SearchServiceAsync.java" />
         <option value="$PROJECT_DIR$/target/generated-sources/annotations/com/example/client/LoginServiceAsync.java" />
@@ -292,12 +276,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/client/Main.ui.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/client/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/public/Main.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/client/LoginService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/server/login/SignUp/SignUpUserImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/client/LoginServiceAsync.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/AddBook/AddBookToDataStore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/public/Kitab.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/server/search/SearchRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/server/search/SearchResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/client/SearchServiceAsync.java" />
@@ -305,12 +285,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/DeleteBook/DeleteBookFromDataStore.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/client/BookServiceAsync.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/client/BookService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/UpdateBook/UpdateBookInDataStore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/server/login/LogIn/LoginUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/GetAllBooksFromDataStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/server/login/LogIn/LoginUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/shared/login/UserDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/client/LoginService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/client/LoginServiceAsync.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/shared/search/SearchResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/server/search/SearchByName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/GetAllBooksFromDataStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Kitab.gwt.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/public/Kitab.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/public/Kitab.css" />
       </list>
     </option>
   </component>
@@ -339,7 +327,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1" />
     <option name="y" value="23" />
     <option name="width" value="1439" />
@@ -410,7 +398,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shubham" type="b2602c69:ProjectViewProjectNode" />
@@ -419,18 +408,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shubham" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shubham" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -542,14 +520,11 @@
       <option name="presentableId" value="Default" />
       <updated>1563866695461</updated>
       <workItem from="1563866699802" duration="69135000" />
-      <workItem from="1564135816070" duration="40521000" />
+      <workItem from="1564135816070" duration="57655000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="tableSetupTest - 2019.07.23 at 15h 10m 33s.xml">
-      <configuration name="tableSetupTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="tableSetupTest - 2019.07.23 at 15h 26m 21s.xml">
       <configuration name="tableSetupTest" configurationId="JUnit" />
     </history-entry>
@@ -577,9 +552,12 @@
     <history-entry file="tableSetupTest - 2019.07.23 at 16h 25m 48s.xml">
       <configuration name="tableSetupTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="tableSetupTest - 2019.07.30 at 09h 57m 04s.xml">
+      <configuration name="tableSetupTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109656000" />
+    <option name="totallyTimeSpent" value="126790000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -591,7 +569,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1439" height="811" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="816" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -599,11 +578,11 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.25340015" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32962447" />
       <window_info anchor="bottom" id="Spring" order="1" weight="0.32962447" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49892628" weight="0.16550764" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49892628" weight="0.4589708" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="4" sideWeight="0.4996421" weight="0.32962447" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5010737" side_tool="true" weight="0.42141864" />
@@ -611,11 +590,11 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32962447" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.4996421" weight="0.38664812" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.4996421" weight="0.7292818" />
       <window_info anchor="bottom" id="Application Servers" order="11" sideWeight="0.4996421" weight="0.32962447" />
       <window_info anchor="bottom" id="Message" order="12" />
       <window_info anchor="bottom" id="Find" order="13" weight="0.32962447" />
-      <window_info active="true" anchor="bottom" id="Debug" order="14" sideWeight="0.49892628" visible="true" weight="0.76634216" />
+      <window_info anchor="bottom" id="Debug" order="14" sideWeight="0.49892628" visible="true" weight="0.25828728" />
       <window_info anchor="bottom" id="Cvs" order="15" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="16" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="17" weight="0.04172462" />
@@ -695,24 +674,6 @@
           <properties />
           <option name="timeStamp" value="76" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/server/login/LogIn/LoginUser.java</url>
-          <line>10</line>
-          <properties />
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/server/book/GetAllBooksFromDataStore.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/server/book/GetAllBooksFromDataStore.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -720,78 +681,6 @@
     <SUITE FILE_PATH="coverage/shubham$Unnamed_JavaScript.dat" NAME="Unnamed JavaScript Coverage Results" MODIFIED="1564033463968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/book/UpdateBookResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/book/AddBookResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/Tables/BookDetailsTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/Main.ui.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/MenuItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/MouseListenerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/TextBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="87" column="12" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/core/client/impl/Impl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/TabPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/sql/PreparedStatement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -806,24 +695,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/HasVerticalAlignment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-350">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/HasHorizontalAlignment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-226">
           <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/Main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -950,16 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/search/SearchRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -981,70 +846,6 @@
             <element signature="e#417#418#0" expanded="true" />
             <element signature="e#459#460#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/search/SearchResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/SearchService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/Kitab.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/SearchServiceAsync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/BookServiceAsync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/BookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/LoginServiceAsync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1079,19 +880,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/login/LogInRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/login/LogInResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/login/logOutRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/login/SignUpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/login/UserDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="165">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/LoginServiceAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/signup.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/Main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/login/LogIn/LoginUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201">
+        <state relative-caret-position="45">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
@@ -1100,72 +981,171 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/search/SearchResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/SearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/SearchServiceAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/search/searchServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="120">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/search/SearchByName.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="272">
+          <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/BookServiceAsync.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525">
-          <caret line="109" column="44" lean-forward="true" selection-start-line="109" selection-start-column="44" selection-end-line="109" selection-end-column="44" />
+        <state relative-caret-position="360">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1181#1354#0" expanded="true" />
-            <element signature="e#1353#1354#0" expanded="true" />
-            <element signature="e#1388#1570#0" expanded="true" />
-            <element signature="e#1569#1570#0" expanded="true" />
-            <element signature="e#2280#3126#0" expanded="true" />
-            <element signature="e#3125#3126#0" expanded="true" />
-            <element signature="e#3899#4731#0" expanded="true" />
-            <element signature="e#5056#5057#0" expanded="true" />
-            <element signature="e#5158#5159#0" expanded="true" />
-            <element signature="e#4730#4731#0" expanded="true" />
-            <element signature="e#5610#5611#0" expanded="true" />
-            <element signature="e#5681#5682#0" expanded="true" />
-            <element signature="e#5739#5740#0" expanded="true" />
-            <element signature="e#5811#5812#0" expanded="true" />
-            <element signature="e#7708#7709#0" expanded="true" />
-            <element signature="e#7823#7824#0" expanded="true" />
-            <element signature="e#9386#10959#0" expanded="true" />
-            <element signature="e#8722#8723#0" expanded="true" />
-            <element signature="e#8829#8830#0" expanded="true" />
-            <element signature="e#10958#10959#0" expanded="true" />
-            <element signature="e#11340#11490#0" expanded="true" />
-            <element signature="e#11489#11490#0" expanded="true" />
-            <element signature="e#11528#11816#0" expanded="true" />
-            <element signature="e#11815#11816#0" expanded="true" />
-            <element signature="e#13734#15321#0" expanded="true" />
-            <element signature="e#14843#14844#0" expanded="true" />
-            <element signature="e#14962#14963#0" expanded="true" />
-            <element signature="e#15320#15321#0" expanded="true" />
-            <element signature="e#15357#15562#0" expanded="true" />
-            <element signature="e#15561#15562#0" expanded="true" />
-            <element signature="e#16425#16790#0" expanded="true" />
-            <element signature="e#16789#16790#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/UIObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="558" selection-start-line="558" selection-end-line="558" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/GetAllBooksFromDataStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+        <state relative-caret-position="1050">
+          <caret line="74" column="52" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/DialogBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-581">
+          <caret line="131" column="13" selection-start-line="131" selection-start-column="13" selection-end-line="131" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/HasVerticalAlignment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/theme/clean/Clean.gwt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/Kitab.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="317" column="33" selection-start-line="317" selection-start-column="33" selection-end-line="317" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1125#1298#0" expanded="true" />
+            <element signature="e#1297#1298#0" expanded="true" />
+            <element signature="e#1332#1514#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#2224#3073#0" expanded="true" />
+            <element signature="e#3072#3073#0" expanded="true" />
+            <element signature="e#3846#5064#0" expanded="true" />
+            <element signature="e#5056#5057#0" expanded="true" />
+            <element signature="e#5158#5159#0" expanded="true" />
+            <element signature="e#5063#5064#0" expanded="true" />
+            <element signature="e#5610#5611#0" expanded="true" />
+            <element signature="e#5681#5682#0" expanded="true" />
+            <element signature="e#5739#5740#0" expanded="true" />
+            <element signature="e#5811#5812#0" expanded="true" />
+            <element signature="e#6670#6859#0" expanded="true" />
+            <element signature="e#6858#6859#0" expanded="true" />
+            <element signature="e#6906#8660#0" expanded="true" />
+            <element signature="e#8659#8660#0" expanded="true" />
+            <element signature="e#10093#10094#0" expanded="true" />
+            <element signature="e#10179#10180#0" expanded="true" />
+            <element signature="e#10051#10932#0" expanded="true" />
+            <element signature="e#10931#10932#0" expanded="true" />
+            <element signature="e#11770#13342#0" expanded="true" />
+            <element signature="e#8722#8723#0" expanded="true" />
+            <element signature="e#8829#8830#0" expanded="true" />
+            <element signature="e#13341#13342#0" expanded="true" />
+            <element signature="e#15497#15647#0" expanded="true" />
+            <element signature="e#15646#15647#0" expanded="true" />
+            <element signature="e#15685#15973#0" expanded="true" />
+            <element signature="e#15972#15973#0" expanded="true" />
+            <element signature="e#17947#19787#0" expanded="true" />
+            <element signature="e#14843#14844#0" expanded="true" />
+            <element signature="e#14962#14963#0" expanded="true" />
+            <element signature="e#19786#19787#0" expanded="true" />
+            <element signature="e#19823#20028#0" expanded="true" />
+            <element signature="e#20027#20028#0" expanded="true" />
+            <element signature="e#20891#21256#0" expanded="true" />
+            <element signature="e#21255#21256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/images/Grey.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Kitab.gwt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/Kitab.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>

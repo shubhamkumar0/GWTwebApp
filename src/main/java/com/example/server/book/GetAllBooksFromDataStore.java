@@ -73,7 +73,6 @@ public class GetAllBooksFromDataStore {
 
     private List<BookDetails> getBooksFromDb() {
         List<BookDetails> books = new ArrayList<>();
-//        List<String> bookNames = new ArrayList<>();
         try {
             Connection conn = connect();
             Statement stmt = conn.createStatement();
