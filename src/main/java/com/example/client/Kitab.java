@@ -18,6 +18,7 @@ import com.google.gwt.user.client.ui.*;
 import java.util.Date;
 import java.util.List;
 
+import static java.lang.Float.parseFloat;
 import static java.lang.Float.valueOf;
 
 public class Kitab implements EntryPoint {
@@ -35,17 +36,19 @@ public class Kitab implements EntryPoint {
             init();
         } else
         {
+//            Window.alert(sessionID);
             checkWithServerIfSessionIdIsStillLegal(sessionID);
         }
     }
 
-    private void checkWithServerIfSessionIdIsStillLegal(String sessionID)
+    private void checkWithServerIfSessionIdIsStillLegal(final String sessionID)
     {
-        LoginService.Util.getInstance().loginFromSessionServer(new AsyncCallback<UserDetails>()
+        LoginService.Util.getInstance().loginFromSessionServer(sessionID, new AsyncCallback<UserDetails>()
         {
             @Override
             public void onFailure(Throwable caught)
             {
+                Window.alert("fail");
                 LoginPage loginpage = new LoginPage();
             }
 
@@ -54,6 +57,7 @@ public class Kitab implements EntryPoint {
             {
                 if (result == null)
                 {
+                    Window.alert(sessionID);
                     LoginPage loginpage = new LoginPage();
                 } else
                 {
@@ -63,6 +67,7 @@ public class Kitab implements EntryPoint {
                         getBooks();
                     } else
                     {
+//                        Window.alert("dont remember "+result.getEmail());
                         LoginPage loginpage = new LoginPage();
                     }
                 }
@@ -145,7 +150,8 @@ public class Kitab implements EntryPoint {
             //signup();
             button.addClickHandler(new ClickHandler() {
                 public void onClick(ClickEvent event) {
-                    loginServiceAsync.loginServer(email.getText(), password.getText(),
+                    //setloggedin taking input from user
+                    loginServiceAsync.loginServer(email.getText(), password.getText(),true,
                             new AsyncCallback<UserDetails>() {
                                 public void onFailure(Throwable caught) {
                                     Window.alert("Login failed.");
@@ -194,7 +200,8 @@ public class Kitab implements EntryPoint {
             RootPanel.get("bookName").add(books);
             RootPanel.get("addbook").add(addbook);
             RootPanel.get("search1").add(search);
-            RootPanel.get("slot0").add(logout);
+            RootPanel.get("search").add(logout);
+
             books.setVisibleItemCount(10);
             for( String name: bookNames) {
                 books.addItem(name);
@@ -205,6 +212,24 @@ public class Kitab implements EntryPoint {
                 @Override
                 public void onClick(ClickEvent event) {
                     Window.alert("logging out");
+                    Cookies.removeCookie("sid");
+                    LoginService.Util.getInstance().logout(Cookies.getCookie("sid"), new AsyncCallback<Boolean>() {
+                        @Override
+                        public void onFailure(Throwable caught)
+                        {
+                            Window.alert("logout fail");
+                        }
+
+                        @Override
+                        public void onSuccess(Boolean result) {
+                            if(result) {
+                                cleareverything();
+                                LoginPage loginPage = new LoginPage();
+                            } else {
+                                Window.alert("Logout failed");
+                            }
+                        }
+                    });
                 }
             });
 
@@ -582,6 +607,9 @@ public class Kitab implements EntryPoint {
         RootPanel.get("addbook").clear();
         RootPanel.get("upload").clear();
         RootPanel.get("upl").clear();
+        RootPanel.get("search0").clear();
+        RootPanel.get("search1").clear();
+        RootPanel.get("search").clear();
         RootPanel.get("uploadfilelabel").clear();
     }
 }

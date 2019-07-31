@@ -1,5 +1,6 @@
 package com.example.shared.login;
 
+import com.example.shared.book.BookDetails;
 import com.google.gwt.user.client.rpc.IsSerializable;
 
 public class UserDetails implements IsSerializable {
@@ -7,6 +8,7 @@ public class UserDetails implements IsSerializable {
     private  String email;
     private  String password;
     private  String SessionId;
+    private boolean loggedIn;
 
     public  String getSessionId() {
         return SessionId;
@@ -41,6 +43,9 @@ public class UserDetails implements IsSerializable {
     }
 
     public boolean getLoggedIn() {
-        return true;
+        return loggedIn;
+    }
+    public void setLoggedIn(boolean loggedIn) {
+        this.loggedIn = loggedIn;
     }
 }

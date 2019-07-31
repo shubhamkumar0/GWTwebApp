@@ -22,6 +22,7 @@ public interface LoginService extends RemoteService {
         }
     }
     boolean signUpUser(String name, String email, String password);
-    UserDetails loginServer(String email, String password);
-    UserDetails loginFromSessionServer();
+    UserDetails loginServer(String email, String password, boolean login);
+    UserDetails loginFromSessionServer(String sessionId);
+    boolean logout(String session);
 }
