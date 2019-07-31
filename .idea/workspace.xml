@@ -7,51 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b66b58af-9c30-4eff-9645-65cdd9f90783" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shared/FileUpload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/BookServiceAsync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/BookServiceAsync.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/SignUpUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/SignUpUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/public/Kitab.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/public/Kitab.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/public/Kitab.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/public/Kitab.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/book/GetAllBooksFromDataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/book/GetAllBooksFromDataStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/BookServiceAsync.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/BookServiceAsync.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$5$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$3$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/SignUpUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/book/GetAllBooksFromDataStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/book/GetAllBooksFromDataStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/book/bookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/book/bookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/LoginServiceAsync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/LoginServiceAsync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shared/login/UserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shared/login/UserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$5$1.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -80,33 +41,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/Kitab.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#head#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="194" column="36" lean-forward="true" selection-start-line="194" selection-start-column="36" selection-end-line="194" selection-end-column="36" />
+            <state relative-caret-position="171">
+              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1686#1687#0" expanded="true" />
+                <element signature="e#1755#1756#0" expanded="true" />
                 <element signature="e#2399#2572#0" expanded="true" />
                 <element signature="e#2571#2572#0" expanded="true" />
                 <element signature="e#2606#2788#0" expanded="true" />
@@ -159,18 +102,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/SignUpUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#0#234#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/SearchServiceAsync.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -180,19 +111,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/FileUpload.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/LoginServiceAsync.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/LoginService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="135">
+              <caret line="9" column="108" selection-start-line="9" selection-start-column="108" selection-end-line="9" selection-end-column="108" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -201,10 +123,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/Kitab.css">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            <state relative-caret-position="452">
+              <caret line="66" column="41" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1515#1516#0" expanded="true" />
+                <element signature="e#1565#1566#0" expanded="true" />
+                <element signature="e#2455#2456#0" expanded="true" />
+                <element signature="e#2506#2507#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/login/UserDetails.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
+                <element signature="e#995#996#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -293,9 +239,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/DeleteBook/DeleteBookFromDataStore.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/UpdateBook/UpdateBookInDataStore.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/server/login/LogIn/LoginUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/shared/login/UserDetails.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/client/LoginServiceAsync.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/shared/search/SearchResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/server/search/SearchByName.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/Kitab.gwt.xml" />
@@ -304,10 +247,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/client/BookService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/client/BookServiceAsync.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/shared/FileUpload.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/client/LoginService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/client/SignUpUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/public/Kitab.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/public/Kitab.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/client/LoginService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/client/LoginServiceAsync.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/shared/login/UserDetails.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java" />
       </list>
     </option>
@@ -443,6 +389,16 @@
             <path>
               <item name="shubham" type="b2602c69:ProjectViewProjectNode" />
               <item name="shubham" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shubham" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shubham" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -556,7 +512,7 @@
       <option name="presentableId" value="Default" />
       <updated>1563866695461</updated>
       <workItem from="1563866699802" duration="69135000" />
-      <workItem from="1564135816070" duration="73175000" />
+      <workItem from="1564135816070" duration="79756000" />
     </task>
     <servers />
   </component>
@@ -593,7 +549,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142310000" />
+    <option name="totallyTimeSpent" value="148891000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -614,23 +570,23 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.20314735" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32962447" />
       <window_info anchor="bottom" id="Spring" order="1" weight="0.32962447" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49892628" weight="0.76243097" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49892628" weight="0.041436464" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="4" sideWeight="0.4996421" weight="0.32962447" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5010737" side_tool="true" weight="0.42141864" />
-      <window_info anchor="bottom" id="Messages" order="6" weight="0.19471489" />
+      <window_info anchor="bottom" id="Messages" order="6" weight="0.5441989" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32962447" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.4996421" weight="0.7292818" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.4996421" weight="0.45994475" />
       <window_info anchor="bottom" id="Application Servers" order="11" sideWeight="0.4996421" weight="0.32962447" />
       <window_info anchor="bottom" id="Message" order="12" />
       <window_info anchor="bottom" id="Find" order="13" weight="0.32962447" />
-      <window_info active="true" anchor="bottom" id="Debug" order="14" sideWeight="0.49892628" visible="true" weight="0.041436464" />
+      <window_info active="true" anchor="bottom" id="Debug" order="14" sideWeight="0.49892628" visible="true" weight="0.10082873" />
       <window_info anchor="bottom" id="Cvs" order="15" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="16" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="17" weight="0.04172462" />
@@ -657,7 +613,7 @@
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32962447" />
       <window_info anchor="bottom" id="Spring" order="1" weight="0.32962447" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49892628" weight="0.041436464" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49892628" visible="true" weight="0.041436464" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="4" sideWeight="0.4996421" weight="0.32962447" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5010737" side_tool="true" weight="0.42141864" />
@@ -669,7 +625,7 @@
       <window_info anchor="bottom" id="Application Servers" order="11" sideWeight="0.4996421" weight="0.32962447" />
       <window_info anchor="bottom" id="Message" order="12" />
       <window_info anchor="bottom" id="Find" order="13" weight="0.32962447" />
-      <window_info anchor="bottom" id="Debug" order="14" sideWeight="0.49892628" visible="true" weight="0.092541434" />
+      <window_info anchor="bottom" id="Debug" order="14" sideWeight="0.49892628" weight="0.8729282" />
       <window_info anchor="bottom" id="Cvs" order="15" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="16" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="17" weight="0.04172462" />
@@ -698,29 +654,35 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/server/book/AddBook/AddBookToDataStore.java</url>
           <line>17</line>
           <properties />
           <option name="timeStamp" value="70" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImpl.java</url>
           <line>45</line>
           <properties />
           <option name="timeStamp" value="76" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/server/book/GetAllBooksFromDataStore.java</url>
           <line>45</line>
           <properties />
           <option name="timeStamp" value="88" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java</url>
-          <line>404</line>
+          <line>37</line>
           <properties />
-          <option name="timeStamp" value="90" />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="96" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -729,20 +691,6 @@
     <SUITE FILE_PATH="coverage/shubham$Unnamed_JavaScript.dat" NAME="Unnamed JavaScript Coverage Results" MODIFIED="1564033463968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/LoginApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.3.RELEASE/spring-core-4.3.3.RELEASE.jar!/org/springframework/core/env/PropertyResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/login/SignUp/SignUpUserImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -893,28 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/login/UserDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/LoginServiceAsync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/signup.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -994,30 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/server/rpc/RPC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="607" selection-start-line="607" selection-end-line="607" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/server/rpc/RemoteServiceServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="381" selection-start-line="381" selection-end-line="381" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/server/rpc/AbstractRemoteServiceServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
@@ -1025,9 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5">
           <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1055,10 +954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1083,16 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="44" column="47" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/login/LogIn/LoginUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1104,37 +989,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/FileUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/SearchServiceAsync.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/SignUpUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#234#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1163,12 +1021,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java">
+    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/FileUpload.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="194" column="36" lean-forward="true" selection-start-line="194" selection-start-column="36" selection-end-line="194" selection-end-column="36" />
+        <state relative-caret-position="121">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/javax/servlet/http/HttpSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/SignUpUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/LoginServiceAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="108" selection-start-line="9" selection-start-column="108" selection-end-line="9" selection-end-column="108" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/server/rpc/AbstractRemoteServiceServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/server/rpc/RemoteServiceServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="381" selection-start-line="381" selection-end-line="381" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/server/rpc/RPC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="607" selection-start-line="607" selection-end-line="607" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/login/UserDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="66" column="41" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
+            <element signature="e#1565#1566#0" expanded="true" />
+            <element signature="e#2455#2456#0" expanded="true" />
+            <element signature="e#2506#2507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/Cookies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1564">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1686#1687#0" expanded="true" />
+            <element signature="e#1755#1756#0" expanded="true" />
             <element signature="e#2399#2572#0" expanded="true" />
             <element signature="e#2571#2572#0" expanded="true" />
             <element signature="e#2606#2788#0" expanded="true" />

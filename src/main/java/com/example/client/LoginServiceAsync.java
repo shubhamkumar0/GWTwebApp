@@ -7,7 +7,7 @@ public interface LoginServiceAsync {
 
     void signUpUser(String name, String email, String password, com.google.gwt.user.client.rpc.AsyncCallback<java.lang.Boolean> arg4);
 
-    void validateUser(String email, String password, com.google.gwt.user.client.rpc.AsyncCallback<java.lang.Boolean> arg4);
+    void loginServer(String email, String password, com.google.gwt.user.client.rpc.AsyncCallback<UserDetails> arg4);
 
-//    void loginFromSessionServer(com.google.gwt.user.client.rpc.AsyncCallback<UserDetails> arg4);
+    void loginFromSessionServer(com.google.gwt.user.client.rpc.AsyncCallback<UserDetails> arg4);
 }

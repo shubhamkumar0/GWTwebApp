@@ -3,42 +3,44 @@ package com.example.shared.login;
 import com.google.gwt.user.client.rpc.IsSerializable;
 
 public class UserDetails implements IsSerializable {
-    private static String name;
-    private static String email;
-    private static String password;
-    private static String SessionId;
+    private  String name;
+    private  String email;
+    private  String password;
+    private  String SessionId;
 
-    public static String getSessionId() {
+    public  String getSessionId() {
         return SessionId;
     }
 
-    public static void setSessionId(String sessionId) {
+    public  void setSessionId(String sessionId) {
         SessionId = sessionId;
     }
 
-    public static String getName() {
+    public  String getName() {
         return name;
     }
 
-    public static void setName(String name) {
-        UserDetails.name = name;
+    public  void setName(String name) {
+        this.name = name;
     }
 
-    public static String getEmail() {
+    public  String getEmail() {
         return email;
     }
 
-    public static void setEmail(String email) {
-        UserDetails.email = email;
+    public  void setEmail(String email) {
+        this.email = email;
     }
 
-    public static String getPassword() {
+    public  String getPassword() {
         return password;
     }
 
-    public static void setPassword(String password) {
-        UserDetails.password = password;
+    public  void setPassword(String password) {
+        this.password = password;
     }
 
-
+    public boolean getLoggedIn() {
+        return true;
+    }
 }

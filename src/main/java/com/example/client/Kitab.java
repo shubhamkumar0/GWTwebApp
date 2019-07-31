@@ -15,7 +15,6 @@ import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.*;
 
-import java.io.File;
 import java.util.Date;
 import java.util.List;
 
@@ -28,50 +27,49 @@ public class Kitab implements EntryPoint {
 //    private static final EventBus s_eventBus = new SimpleEventBus();
 
     public void onModuleLoad() {
-//        String sessionID = Cookies.getCookie("sid");
-//        if (sessionID == null)
-//        {
-//            LoginPage loginpage = new LoginPage();
-//        } else
-//        {
-//            checkWithServerIfSessionIdIsStillLegal();
-//        }
-
-        RootPanel.get("login").add(login);
-        RootPanel.get("signup").add(signup);
-        init();
+        String sessionID = Cookies.getCookie("sid");
+        if (sessionID == null || sessionID == "undefined")
+        {
+            RootPanel.get("login").add(login);
+            RootPanel.get("signup").add(signup);
+            init();
+        } else
+        {
+            checkWithServerIfSessionIdIsStillLegal(sessionID);
+        }
     }
 
-//    private void checkWithServerIfSessionIdIsStillLegal(String sessionID)
-//    {
-//        LoginService.Util.getInstance().loginFromSessionServer(new AsyncCallback<UserDetails>()
-//        {
-//            @Override
-//            public void onFailure(Throwable caught)
-//            {
-//                LoginPage loginpage = new LoginPage();
-//            }
-//
-//            @Override
-//            public void onSuccess(UserDetails result)
-//            {
-//                if (result == null)
-//                {
-//                    LoginPage loginpage = new LoginPage();
-//                } else
-//                {
-//                    if (result.getLoggedIn())
-//                    {
-//                        getBooks();
-//                    } else
-//                    {
-//                        LoginPage loginpage = new LoginPage();
-//                    }
-//                }
-//            }
-//
-//        });
-//    }
+    private void checkWithServerIfSessionIdIsStillLegal(String sessionID)
+    {
+        LoginService.Util.getInstance().loginFromSessionServer(new AsyncCallback<UserDetails>()
+        {
+            @Override
+            public void onFailure(Throwable caught)
+            {
+                LoginPage loginpage = new LoginPage();
+            }
+
+            @Override
+            public void onSuccess(UserDetails result)
+            {
+                if (result == null)
+                {
+                    LoginPage loginpage = new LoginPage();
+                } else
+                {
+                    if (result.getLoggedIn())
+                    {
+                        Window.alert(result.getEmail());
+                        getBooks();
+                    } else
+                    {
+                        LoginPage loginpage = new LoginPage();
+                    }
+                }
+            }
+
+        });
+    }
     void init() {
         login.addClickHandler(new ClickHandler() {
             @Override
@@ -147,20 +145,20 @@ public class Kitab implements EntryPoint {
             //signup();
             button.addClickHandler(new ClickHandler() {
                 public void onClick(ClickEvent event) {
-                    loginServiceAsync.validateUser(email.getText(), password.getText(),
-                            new AsyncCallback<Boolean>() {
+                    loginServiceAsync.loginServer(email.getText(), password.getText(),
+                            new AsyncCallback<UserDetails>() {
                                 public void onFailure(Throwable caught) {
                                     Window.alert("Login failed.");
                                 }
-                                public void onSuccess(Boolean result) {
-                                    if(result == false) {
+                                public void onSuccess(UserDetails result) {
+                                    if(result == null) {
                                         Window.alert("Login failed.");
                                     } else {
-                                        //TODO
-//                                        String sessionID = UserDetails.getSessionId();
-//                                        final long DURATION = 1000 * 60 * 60 * 24;
-//                                        Date expires = new Date(System.currentTimeMillis() + DURATION);
-//                                        Cookies.setCookie("sid", sessionID, expires, null, "/", false);
+                                        //TODO-cookie
+                                        String sessionID = result.getSessionId();
+                                        final long DURATION = 1000 * 60 * 60 * 24 * 1;
+                                        Date expires = new Date(System.currentTimeMillis() + DURATION);
+                                        Cookies.setCookie("sid", sessionID, expires, null, "/", false);
                                         getBooks();
                                     }
                                 }
@@ -184,10 +182,10 @@ public class Kitab implements EntryPoint {
     }
 
     private static class MainPage extends Composite {
-        //TODO Listbox ke jagah better kuch dekho
         ListBox books = new ListBox();
         final Button addbook = new Button("addbook");
         final Button search = new Button("Search");
+        final Button logout = new Button("Log Out");
         TextBox search_what = new TextBox();
         final SearchServiceAsync searchServiceAsync = GWT.create(SearchService.class);
         MainPage(List<String> bookNames) {
@@ -196,11 +194,19 @@ public class Kitab implements EntryPoint {
             RootPanel.get("bookName").add(books);
             RootPanel.get("addbook").add(addbook);
             RootPanel.get("search1").add(search);
+            RootPanel.get("slot0").add(logout);
             books.setVisibleItemCount(10);
             for( String name: bookNames) {
                 books.addItem(name);
             }
             getDetails(books);
+
+            logout.addClickHandler(new ClickHandler() {
+                @Override
+                public void onClick(ClickEvent event) {
+                    Window.alert("logging out");
+                }
+            });
 
             addbook.addClickHandler(new ClickHandler() {
                 @Override
