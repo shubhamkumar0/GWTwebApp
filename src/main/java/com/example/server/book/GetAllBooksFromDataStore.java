@@ -18,7 +18,7 @@ public class GetAllBooksFromDataStore {
         return bookNamesFromDb();
     }
 
-    public BookDetails getBookDetailsByBookName(String bookName) {
+    public List<BookDetails> getBookDetailsByBookName(String bookName) {
         return getBookDetailsByBookNameFromDb(bookName);
     }
 
@@ -42,8 +42,9 @@ public class GetAllBooksFromDataStore {
         return null;
     }
 
-    private BookDetails getBookDetailsByBookNameFromDb(String bookName) {
-        BookDetails book = new BookDetails();
+    private List<BookDetails> getBookDetailsByBookNameFromDb(String bookName) {
+        List<BookDetails> books = new ArrayList<>();
+
         String sql = "select * from BookDetailsTable where bookName=?";
         try {
             Connection conn = connect();
@@ -52,19 +53,10 @@ public class GetAllBooksFromDataStore {
             ResultSet rs=ps.executeQuery();
             assert (rs != null);
             while (rs.next()) {
-                String BId = rs.getString("bookId");
-                String BName = rs.getString("bookName");
-                String AName = rs.getString("authorName");
-                Float ratings = rs.getFloat("ratings");
-                boolean isAvail = rs.getBoolean("isAvailable");
-                book.setIsAvailable(isAvail);
-                book.setRatings(ratings);
-                book.setAuthorName(AName);
-                book.setBookName(BName);
-                book.setBookId(BId);
+               work(books, rs);
             }
             conn.close();
-            return book;
+            return books;
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -79,18 +71,7 @@ public class GetAllBooksFromDataStore {
             ResultSet rs = stmt.executeQuery("SELECT * FROM BookDetailsTable LIMIT 0 , 10; ");
             assert(rs!=null);
             while (rs.next()) {
-                BookDetails bookDetails = new BookDetails();
-                String BId = rs.getString("bookId");
-                String BName = rs.getString("bookName");
-                String AName = rs.getString("authorName");
-                Float ratings = rs.getFloat("ratings");
-                boolean isAvail = rs.getBoolean("isAvailable");
-                bookDetails.setBookId(BId);
-                bookDetails.setBookName(BName);
-                bookDetails.setAuthorName(AName);
-                bookDetails.setRatings(ratings);
-                bookDetails.setIsAvailable(isAvail);
-                books.add(bookDetails);
+                work(books,rs);
             }
             conn.close();
            return books;
@@ -99,6 +80,31 @@ public class GetAllBooksFromDataStore {
         }
         return null;
     }
+
+    private void work(List<BookDetails> books, ResultSet rs) {
+        BookDetails book = new BookDetails();
+        String BId = null;
+        String BName = null;
+        String AName = null;
+        Float ratings = null;
+        boolean isAvail = false;
+        try {
+            BId = rs.getString("bookId");
+            BName = rs.getString("bookName");
+            AName = rs.getString("authorName");
+            ratings = rs.getFloat("ratings");
+            isAvail = rs.getBoolean("isAvailable");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        book.setIsAvailable(isAvail);
+        book.setRatings(ratings);
+        book.setAuthorName(AName);
+        book.setBookName(BName);
+        book.setBookId(BId);
+        books.add(book);
+    }
+
     private Connection connect() {
         Connection conn = null;
         try {

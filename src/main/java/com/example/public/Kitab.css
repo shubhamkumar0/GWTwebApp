@@ -1,5 +1,5 @@
 body {
-    background-color: mediumpurple;
+    background-color: #8365A9;
     color: rebeccapurple;
     font-family: "Comic Sans MS", sans-serif;
     font-size: small;
@@ -11,6 +11,13 @@ body {
     cursor: default;
 
 }
+img {
+    size: 5px;
+}
+
+.gwt-FileUpload {
+    color: black;
+}
 
 .gwt-DialogBox .dialogContent {
 }
@@ -20,3 +27,7 @@ body {
     background: white;
 }
 
+.gwt-Label{
+    font-size: 150%;
+    font-weight: bold;
+}

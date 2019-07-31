@@ -29,7 +29,7 @@ public class bookServiceImpl extends RemoteServiceServlet implements BookService
         return getAllBooksFromDataStore.getBookNames();
     }
     @Override
-    public BookDetails getBookDetailsByBookName(String bookName) {
+    public List<BookDetails> getBookDetailsByBookName(String bookName) {
         GetAllBooksFromDataStore getAllBooksFromDataStore = new GetAllBooksFromDataStore();
         return getAllBooksFromDataStore.getBookDetailsByBookName(bookName);
     }

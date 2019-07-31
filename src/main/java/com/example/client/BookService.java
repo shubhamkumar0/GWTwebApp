@@ -20,5 +20,5 @@ public interface BookService extends RemoteService {
     Boolean addBook(AddBookRequest addBookRequest);
     Boolean updateBook(String orig_id, UpdateBookRequest updateBookRequest);
     Boolean deleteBook(DeleteBookRequest deleteBookRequest);
-    BookDetails getBookDetailsByBookName(String bookId);
+    List<BookDetails> getBookDetailsByBookName(String bookId);
 }

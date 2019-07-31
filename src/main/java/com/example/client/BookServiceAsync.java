@@ -22,5 +22,5 @@ public interface BookServiceAsync {
 
     void deleteBook(DeleteBookRequest deleteBookRequest, com.google.gwt.user.client.rpc.AsyncCallback<Boolean> arg4);
 
-    void getBookDetailsByBookName(String bookId, com.google.gwt.user.client.rpc.AsyncCallback<BookDetails> arg4);
+    void getBookDetailsByBookName(String bookId, com.google.gwt.user.client.rpc.AsyncCallback<List<BookDetails>> arg4);
 }
