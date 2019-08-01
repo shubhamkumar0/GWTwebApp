@@ -15,6 +15,7 @@ import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.*;
 
+import javax.servlet.http.Cookie;
 import java.util.Date;
 import java.util.List;
 
@@ -25,6 +26,7 @@ public class Kitab implements EntryPoint {
     //////////////
     final Button login = new Button("Back Again? Login!");
     final Button signup = new Button("New User? Sign Up!");
+    static String UserName;
 //    private static final EventBus s_eventBus = new SimpleEventBus();
 
     public void onModuleLoad() {
@@ -63,7 +65,8 @@ public class Kitab implements EntryPoint {
                 {
                     if (result.getLoggedIn())
                     {
-                        Window.alert(result.getEmail());
+//                        Window.alert(result.getEmail());
+                        UserName = result.getName();
                         getBooks();
                     } else
                     {
@@ -135,6 +138,8 @@ public class Kitab implements EntryPoint {
 
         final Button button = new Button("Log In!");
         final TextBox email = new TextBox();
+        CheckBox rememberMe = new CheckBox("Remember me!");
+        boolean checked= false;
         final PasswordTextBox password = new PasswordTextBox();
         private LoginServiceAsync loginServiceAsync = GWT.create(LoginService.class);
 
@@ -147,11 +152,14 @@ public class Kitab implements EntryPoint {
             RootPanel.get("slot2").add(email);
             RootPanel.get("slot3").add(password);
             RootPanel.get("slot4").add(button);
+            RootPanel.get("checker").add(rememberMe);
             //signup();
+
             button.addClickHandler(new ClickHandler() {
                 public void onClick(ClickEvent event) {
                     //setloggedin taking input from user
-                    loginServiceAsync.loginServer(email.getText(), password.getText(),true,
+//                    Window.alert("? "+checked);
+                    loginServiceAsync.loginServer(email.getText(), password.getText(),checked,
                             new AsyncCallback<UserDetails>() {
                                 public void onFailure(Throwable caught) {
                                     Window.alert("Login failed.");
@@ -169,6 +177,13 @@ public class Kitab implements EntryPoint {
                                     }
                                 }
                             });
+                }
+            });
+
+            rememberMe.addClickHandler(new ClickHandler() {
+                @Override
+                public void onClick(ClickEvent event) {
+                    checked=true;
                 }
             });
         }
@@ -189,6 +204,7 @@ public class Kitab implements EntryPoint {
 
     private static class MainPage extends Composite {
         ListBox books = new ListBox();
+        Label naam = new Label("Welcome, "+UserName);
         final Button addbook = new Button("addbook");
         final Button search = new Button("Search");
         final Button logout = new Button("Log Out");
@@ -196,6 +212,7 @@ public class Kitab implements EntryPoint {
         final SearchServiceAsync searchServiceAsync = GWT.create(SearchService.class);
         MainPage(List<String> bookNames) {
             cleareverything();
+            RootPanel.get("header").add(naam);
             RootPanel.get("search0").add(search_what);
             RootPanel.get("bookName").add(books);
             RootPanel.get("addbook").add(addbook);
@@ -343,6 +360,7 @@ public class Kitab implements EntryPoint {
         Label selectLabel = new Label("Add books via uploading CSV:");
         final FileUpload fileUpload = new FileUpload();
         final Button addFromCsv = new Button("Upload CSV");
+        final FormPanel form = new FormPanel();
         final TextBox bookId = new TextBox();
         final TextBox bookName = new TextBox();
         final TextBox authorName = new TextBox();
@@ -364,6 +382,14 @@ public class Kitab implements EntryPoint {
             RootPanel.get("upl").add(fileUpload);
             RootPanel.get("upload").add(addFromCsv);
             RootPanel.get("addbook").add(back);
+            RootPanel.get("gwtContainer").add(form);
+
+            //define url to which POST the data
+            form.setAction("http://www.tutorialspoint.com/gwt/myFormHandler");
+            // set form to use the POST method, and multipart MIME encoding.
+            form.setEncoding(FormPanel.ENCODING_MULTIPART);
+            form.setMethod(FormPanel.METHOD_POST);
+
             back.addClickHandler(new ClickHandler() {
                 @Override
                 public void onClick(ClickEvent event) {
@@ -410,15 +436,22 @@ public class Kitab implements EntryPoint {
                         Window.alert("No File Specified!");
                     } else {
                         //TODO
+                        form.submit();
                         Window.alert(filename);
                     }
                 }
             });
         }
 
-//        public Book_Adder(File file) {
-//
-////        }
+//        form.SubmitCompleteEvent(new FormPanel.SubmitCompleteHandler() {
+//            @Override
+//            public void onSubmitComplete(SubmitCompleteEvent event) {
+//                // When the form submission is successfully completed, this
+//                //event is fired. Assuming the service returned a response
+//                //of type text/html, we can get the result text here
+//                Window.alert(event.getResults());
+//            }
+//        });
     }
 
     private static class MyDialog extends DialogBox {
@@ -598,6 +631,8 @@ public class Kitab implements EntryPoint {
     }
 
     private static void cleareverything() {
+        RootPanel.get("header").clear();
+        RootPanel.get("checker").clear();
         RootPanel.get("slot0").clear();
         RootPanel.get("slot1").clear();
         RootPanel.get("slot2").clear();
