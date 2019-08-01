@@ -16,6 +16,7 @@ import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.*;
 
 import javax.servlet.http.Cookie;
+import java.sql.Connection;
 import java.util.Date;
 import java.util.List;
 
@@ -140,6 +141,7 @@ public class Kitab implements EntryPoint {
         final TextBox email = new TextBox();
         CheckBox rememberMe = new CheckBox("Remember me!");
         boolean checked= false;
+        final Label newUser = new Label("First time Here? Sign Up!");
         final PasswordTextBox password = new PasswordTextBox();
         private LoginServiceAsync loginServiceAsync = GWT.create(LoginService.class);
 
@@ -153,6 +155,16 @@ public class Kitab implements EntryPoint {
             RootPanel.get("slot3").add(password);
             RootPanel.get("slot4").add(button);
             RootPanel.get("checker").add(rememberMe);
+            newUser.setStyleName("cus");
+            RootPanel.get("search1").add(newUser);
+            newUser.getElement().getStyle().setCursor(Style.Cursor.POINTER);
+            newUser.addClickHandler(new ClickHandler() {
+                @Override
+                public void onClick(ClickEvent event) {
+                    cleareverything();
+                    RegisterPage registerpage = new RegisterPage();
+                }
+            });
             //signup();
 
             button.addClickHandler(new ClickHandler() {
@@ -228,25 +240,12 @@ public class Kitab implements EntryPoint {
             logout.addClickHandler(new ClickHandler() {
                 @Override
                 public void onClick(ClickEvent event) {
-                    Window.alert("logging out");
-                    Cookies.removeCookie("sid");
-                    LoginService.Util.getInstance().logout(Cookies.getCookie("sid"), new AsyncCallback<Boolean>() {
-                        @Override
-                        public void onFailure(Throwable caught)
-                        {
-                            Window.alert("logout fail");
-                        }
-
-                        @Override
-                        public void onSuccess(Boolean result) {
-                            if(result) {
-                                cleareverything();
-                                LoginPage loginPage = new LoginPage();
-                            } else {
-                                Window.alert("Logout failed");
-                            }
-                        }
-                    });
+                    //dialog and confirm
+                    ConfirmDialog confirmDialog = new ConfirmDialog();
+                    int left = Window.getClientWidth()/ 3;
+                    int top = Window.getClientHeight()/ 3;
+                    confirmDialog.setPopupPosition(left, top);
+                    confirmDialog.show();
                 }
             });
 
@@ -452,6 +451,58 @@ public class Kitab implements EntryPoint {
 //                Window.alert(event.getResults());
 //            }
 //        });
+    }
+
+    private static class ConfirmDialog extends DialogBox {
+
+        DockPanel panel = new DockPanel();
+        Label label = new Label("Are you sure?");
+        Button no= new Button("Cancel");
+        Button yes = new Button("Log Out");
+
+        public ConfirmDialog() {
+            setAnimationEnabled(true);
+            setGlassEnabled(true);
+            yes.addClickHandler(new ClickHandler() {
+                @Override
+                public void onClick(ClickEvent event) {
+                    ConfirmDialog.this.hide();
+                    Cookies.removeCookie("sid");
+                    LoginService.Util.getInstance().logout(Cookies.getCookie("sid"), new AsyncCallback<Boolean>() {
+                        @Override
+                        public void onFailure(Throwable caught)
+                        {
+                            Window.alert("logout fail");
+                        }
+
+                        @Override
+                        public void onSuccess(Boolean result) {
+                            if(result) {
+                                cleareverything();
+                                LoginPage loginPage = new LoginPage();
+                            } else {
+                                Window.alert("Logout failed");
+                            }
+                        }
+                    });
+
+                }
+            });
+            no.addClickHandler(new ClickHandler() {
+                @Override
+                public void onClick(ClickEvent event) {
+                    ConfirmDialog.this.hide();
+                }
+            });
+            panel.setHeight("50");
+            panel.setWidth("250");
+            panel.setSpacing(5);
+            panel.setHorizontalAlignment(HasHorizontalAlignment.ALIGN_CENTER);
+            panel.add(label, DockPanel.NORTH);
+            panel.add(yes, DockPanel.EAST);
+            panel.add(no, DockPanel.WEST);
+            setWidget(panel);
+        }
     }
 
     private static class MyDialog extends DialogBox {
