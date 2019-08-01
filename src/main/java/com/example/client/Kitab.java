@@ -60,18 +60,18 @@ public class Kitab implements EntryPoint {
             {
                 if (result == null)
                 {
-                    Window.alert(sessionID);
+//                    Window.alert(sessionID);
                     LoginPage loginpage = new LoginPage();
                 } else
                 {
                     if (result.getLoggedIn())
                     {
-//                        Window.alert(result.getEmail());
+//                        Window.alert(result.getName());
                         UserName = result.getName();
                         getBooks();
                     } else
                     {
-//                        Window.alert("dont remember "+result.getEmail());
+//                        Window.alert("dont remember " + result.getEmail());
                         LoginPage loginpage = new LoginPage();
                     }
                 }
@@ -177,7 +177,7 @@ public class Kitab implements EntryPoint {
                                     Window.alert("Login failed.");
                                 }
                                 public void onSuccess(UserDetails result) {
-                                    if(result == null) {
+                                    if(result.getName() == null) {
                                         Window.alert("Login failed.");
                                     } else {
                                         //TODO-cookie
@@ -185,6 +185,7 @@ public class Kitab implements EntryPoint {
                                         final long DURATION = 1000 * 60 * 60 * 24 * 1;
                                         Date expires = new Date(System.currentTimeMillis() + DURATION);
                                         Cookies.setCookie("sid", sessionID, expires, null, "/", false);
+                                        UserName = result.getName();
                                         getBooks();
                                     }
                                 }

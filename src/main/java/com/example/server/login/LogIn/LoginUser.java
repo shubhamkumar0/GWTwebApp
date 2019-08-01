@@ -1,13 +1,16 @@
 package com.example.server.login.LogIn;
 
+import com.example.server.login.logInServiceImpl;
+import com.example.shared.login.UserDetails;
+
 import java.sql.*;
 
 public class LoginUser {
-    public boolean validate(String email, String password) {
+    public UserDetails validate(String email, String password) {
         return validateUser(email, password);
     }
 
-    private boolean validateUser(String email, String password) {
+    private UserDetails validateUser(String email, String password) {
         String sql = "select * from UserDetails where email=? and password=?";
         try {
             Connection conn = connect();
@@ -15,17 +18,16 @@ public class LoginUser {
             ps.setString(1, email);
             ps.setString(2, password);
             ResultSet rs=ps.executeQuery();
-            if(!rs.next()) {
-                conn.close();
-                return false;
-            } else {
-                conn.close();
-                return true;
+            while(rs.next()) {
+                UserDetails user = new UserDetails();
+                logInServiceImpl.work(rs,user);
+                return user;
             }
+            conn.close();
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
-        return false;
+        return null;
     }
 
     private Connection connect() {

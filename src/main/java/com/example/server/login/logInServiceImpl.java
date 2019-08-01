@@ -25,18 +25,14 @@ public class logInServiceImpl extends RemoteServiceServlet implements LoginServi
 
     @Override
     public UserDetails loginServer(String email, String password, boolean login) {
-        boolean ans = false;
         if (checkValidEmail(email)) {
             LoginUser loginUser = new LoginUser();
-            ans = loginUser.validate(email, password);
-            if (ans) {
-                UserDetails userDetails = new UserDetails();
-                userDetails.setEmail(email);
-                userDetails.setPassword(password);
-                userDetails.setSessionId(secretKeyGenerator(email, password));
-                userDetails.setLoggedIn(login);
-                storeUserInSession(userDetails,login);
-                return userDetails;
+            UserDetails user = loginUser.validate(email, password);
+            if (user.getName() != null) {
+                user.setSessionId(secretKeyGenerator(email, password));
+                user.setLoggedIn(login);
+                storeUserInSession(user,login);
+                return user;
             }
         }
         return null;
@@ -69,13 +65,10 @@ public class logInServiceImpl extends RemoteServiceServlet implements LoginServi
                 ps.setString(1,sessionId);
                 ResultSet rs=ps.executeQuery();
                 assert(rs!=null);
+
                 while (rs.next()) {
                     UserDetails user = new UserDetails();
-                    user.setSessionId(rs.getString("sessionId"));
-                    user.setPassword(rs.getString("password"));
-                    user.setEmail(rs.getString("email"));
-                    user.setName(rs.getString("name"));
-                    user.setLoggedIn(rs.getBoolean("loggedIn"));
+                    work(rs, user);
                     return user;
                 }
                 conn.close();
@@ -151,5 +144,27 @@ public class logInServiceImpl extends RemoteServiceServlet implements LoginServi
             System.out.println(e.getMessage());
         }
         return conn;
+    }
+
+    public static void work(ResultSet rs, UserDetails user) {
+        String sessId = null;
+        String pass = null;
+        String email = null;
+        String name = null;
+        boolean login = false;
+        try {
+            sessId = rs.getString("sessionId");
+            pass = rs.getString("password");
+            email = rs.getString("email");
+            name = rs.getString("name");
+            login = rs.getBoolean("loggedIn");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        user.setSessionId(sessId);
+        user.setPassword(pass);
+        user.setEmail(email);
+        user.setName(name);
+        user.setLoggedIn(login);
     }
 }
