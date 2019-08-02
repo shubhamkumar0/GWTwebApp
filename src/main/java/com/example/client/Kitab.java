@@ -1,5 +1,6 @@
 package com.example.client;
 
+import com.example.shared.book.DeleteBookRequest;
 import com.example.shared.login.UserDetails;
 import com.example.shared.search.SearchRequest;
 import com.example.shared.search.SearchResponse;
@@ -10,17 +11,22 @@ import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.dom.client.Style;
 import com.google.gwt.event.dom.client.*;
+import com.google.gwt.http.client.*;
+import com.google.gwt.json.client.JSONArray;
+import com.google.gwt.json.client.JSONObject;
+import com.google.gwt.json.client.JSONParser;
 import com.google.gwt.user.client.Cookies;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.*;
 
-import javax.servlet.http.Cookie;
-import java.sql.Connection;
+import java.sql.Time;
+import java.time.Duration;
+import java.time.Instant;
 import java.util.Date;
 import java.util.List;
+import java.util.Timer;
 
-import static java.lang.Float.parseFloat;
 import static java.lang.Float.valueOf;
 
 public class Kitab implements EntryPoint {
@@ -31,6 +37,7 @@ public class Kitab implements EntryPoint {
 //    private static final EventBus s_eventBus = new SimpleEventBus();
 
     public void onModuleLoad() {
+        cleareverything();
         String sessionID = Cookies.getCookie("sid");
         if (sessionID == null || sessionID == "undefined")
         {
@@ -99,12 +106,14 @@ public class Kitab implements EntryPoint {
         final Button button = new Button("Sign Up!");
         final TextBox name = new TextBox();
         final TextBox email = new TextBox();
+        final Label existingUser = new Label("Already have an account? Log In!");
         final PasswordTextBox password = new PasswordTextBox();
         private LoginServiceAsync loginServiceAsync = GWT.create(LoginService.class);
 
         public RegisterPage() {
             RootPanel.get("signup").clear();
             RootPanel.get("login").clear();
+            RootPanel.get("search2").clear();
             name.setText("Name");
             email.setText("email");
             password.setText("password");
@@ -112,6 +121,16 @@ public class Kitab implements EntryPoint {
             RootPanel.get("slot2").add(email);
             RootPanel.get("slot3").add(password);
             RootPanel.get("slot4").add(button);
+            existingUser.setStyleName("cus");
+            RootPanel.get("search1").add(existingUser);
+            existingUser.getElement().getStyle().setCursor(Style.Cursor.POINTER);
+            existingUser.addClickHandler(new ClickHandler() {
+                @Override
+                public void onClick(ClickEvent event) {
+                    cleareverything();
+                    LoginPage loginPage = new LoginPage();
+                }
+            });
             button.addClickHandler(new ClickHandler() {
                 public void onClick(ClickEvent event) {
                     loginServiceAsync.signUpUser(name.getText(),email.getText(),password.getText(),
@@ -150,7 +169,7 @@ public class Kitab implements EntryPoint {
             password.setText("password");
             RootPanel.get("login").clear();
             RootPanel.get("signup").clear();
-//            RootPanel.get("slot0").add(back);
+            RootPanel.get("search2").clear();
             RootPanel.get("slot2").add(email);
             RootPanel.get("slot3").add(password);
             RootPanel.get("slot4").add(button);
@@ -219,18 +238,23 @@ public class Kitab implements EntryPoint {
         ListBox books = new ListBox();
         Label naam = new Label("Welcome, "+UserName);
         final Button addbook = new Button("addbook");
-        final Button search = new Button("Search");
+        final Button search = new Button("Search My Library");
+        final Button search_google =new Button("Search Google");
         final Button logout = new Button("Log Out");
         TextBox search_what = new TextBox();
+        Label label = new Label();
         final SearchServiceAsync searchServiceAsync = GWT.create(SearchService.class);
-        MainPage(List<String> bookNames) {
+        MainPage(final List<String> bookNames) {
             cleareverything();
             RootPanel.get("header").add(naam);
             RootPanel.get("search0").add(search_what);
             RootPanel.get("bookName").add(books);
-            RootPanel.get("addbook").add(addbook);
+            RootPanel.get("header2").add(addbook);
             RootPanel.get("search1").add(search);
-            RootPanel.get("search").add(logout);
+            RootPanel.get("slot0").add(logout);
+            RootPanel.get("search2").add(search_google);
+            label.setText("Total "+bookNames.size()+" books in My Library.");
+            RootPanel.get("search").add(label);
 
             books.setVisibleItemCount(10);
             for( String name: bookNames) {
@@ -256,6 +280,7 @@ public class Kitab implements EntryPoint {
                     RootPanel.get("addbook").clear();
                     RootPanel.get("search0").clear();
                     RootPanel.get("search1").clear();
+                    RootPanel.get("header2").clear();
                     Book_Adder book_adder = new Book_Adder();
                 }
             });
@@ -264,7 +289,7 @@ public class Kitab implements EntryPoint {
             search_what.addKeyUpHandler(new KeyUpHandler() {
                 @Override
                 public void onKeyUp(KeyUpEvent event) {
-                    UpdateList(search_what.getText());
+                    UpdateList(search_what.getText(),bookNames);
                 }
             });
 
@@ -298,14 +323,107 @@ public class Kitab implements EntryPoint {
                     }
             }
             });
+            search_google.addClickHandler(new ClickHandler() {
+                @Override
+                public void onClick(ClickEvent event) {
+                    if(search_what.getText() != "") {
+//                        long start = System.currentTimeMillis();
+                        UpdateListViaHttp(search_what.getText());
+//                        long finish = System.currentTimeMillis();
+//                        long timeElapsed = finish-start;
+//                        Window.alert(timeElapsed+"");
+                    } else {
+                        Window.alert("Search for what? A brain! :/");
+                    }
+                }
+            });
         }
     }
 
-    private static void UpdateList(String text) {
+    private static void UpdateListViaHttp(String text) {
         if(text != "") {
             RootPanel.get("bookName").clear();
             final ListBox updatedList = new ListBox();
             updatedList.setVisibleItemCount(10);
+            final JSONObject[] jsonOnlineUser = {null};
+            final JSONArray[] ja = {null};
+            String url = "https://www.googleapis.com/books/v1/volumes?q="+text;
+            RequestBuilder builder = new RequestBuilder(RequestBuilder.GET, url);
+            builder.setHeader("Content-Type", "application/json");
+
+//            long start = System.currentTimeMillis();
+            try {
+                Request response = builder.sendRequest(null, new RequestCallback() {
+                    public void onError(Request request, Throwable exception) {
+                        // Code omitted for clarity
+                        Window.alert("error");
+                    }
+
+                    public void onResponseReceived(Request request, Response response) {
+                        jsonOnlineUser[0] = JSONParser.parse(
+                                response.getText()).isObject();
+                        ja[0] = (JSONArray) jsonOnlineUser[0].get("items").isArray();
+//                        Window.alert(".."+ ja[0].size());
+                        for(int i = 0; i < ja[0].size(); i++) {
+                            updatedList.addItem(ja[0].get(i).isObject().get("volumeInfo").isObject().get("title").toString());
+                        }
+                    }
+                });
+
+            } catch (RequestException e) {
+                // Code omitted for clarity
+                Window.alert("error");
+            }
+
+//            long finish = System.currentTimeMillis();
+//            long timeElapsed = finish-start;
+//            Window.alert(timeElapsed+"");
+
+            updatedList.addClickHandler(new ClickHandler() {
+                @Override
+                public void onClick(ClickEvent event) {
+
+//                    Window.alert(updatedList.getValue(updatedList.getSelectedIndex()));
+                    String author = null;
+                    String name = null;
+                    Float rating = null;
+                    String url = null;
+                    try {
+                        author = ja[0].get(updatedList.getSelectedIndex()).isObject().
+                                get("volumeInfo").isObject().get("authors").isArray().get(0).toString();
+                        name = ja[0].get(updatedList.getSelectedIndex()).isObject().
+                                get("volumeInfo").isObject().get("title").toString();
+                        rating = valueOf(ja[0].get(updatedList.getSelectedIndex()).isObject().
+                                get("volumeInfo").isObject().get("averageRating").toString());
+                        url = ja[0].get(updatedList.getSelectedIndex()).isObject().
+                                get("volumeInfo").isObject().get("infoLink").toString();
+                    } catch(Exception e) {
+//                        Window.alert("shuhus");
+                    }
+//                    Window.alert("us");
+                    BookDetails bookDetails = new BookDetails();
+                    bookDetails.setAuthorName(author);
+                    bookDetails.setBookName(name);
+                    bookDetails.setRatings(rating);
+                    bookDetails.setBookId(url);
+                    GoogleDialog myDialog = new GoogleDialog(bookDetails);
+                    int left = Window.getClientWidth()/ 3;
+                    int top = Window.getClientHeight()/ 3;
+                    myDialog.setPopupPosition(left, top);
+                    myDialog.show();
+                }
+            });
+            RootPanel.get("bookName").add(updatedList);
+        }
+    }
+
+    private static void UpdateList(String text, List<String> books) {
+        final ListBox updatedList = new ListBox();
+        updatedList.setVisibleItemCount(10);
+        if(text != "") {
+            RootPanel.get("bookName").clear();
+
+
             final SearchServiceAsync searchServiceAsync = GWT.create(SearchService.class);
             SearchRequest searchRequest = new SearchRequest();
             searchRequest.setBookName(text);
@@ -320,20 +438,30 @@ public class Kitab implements EntryPoint {
                                     updatedList.addItem(book.getBookName());
                                 }
                             } else {
-                                Window.alert("Book not found! :3");
+//                                Window.alert("Book not found! :3");
                             }
                         }
                     });
             getDetails(updatedList);
+            RootPanel.get("bookName").clear();
+            RootPanel.get("bookName").add(updatedList);
+
+        } else {
+            for(String book : books) {
+                updatedList.addItem(book);
+            }
+            getDetails(updatedList);
+            RootPanel.get("bookName").clear();
             RootPanel.get("bookName").add(updatedList);
         }
+
     }
 
     private static void getDetails(final ListBox books) {
 
-        books.addChangeHandler(new ChangeHandler() {
+        books.addClickHandler(new ClickHandler() {
             @Override
-            public void onChange(ChangeEvent event) {
+            public void onClick(ClickEvent event) {
                 BookServiceAsync bookServiceAsync = GWT.create(BookService.class);
                 bookServiceAsync.getBookDetailsByBookName(books.getValue(books.getSelectedIndex()),
                         new AsyncCallback<List<BookDetails>>() {
@@ -360,6 +488,7 @@ public class Kitab implements EntryPoint {
         Label selectLabel = new Label("Add books via uploading CSV:");
         final FileUpload fileUpload = new FileUpload();
         final Button addFromCsv = new Button("Upload CSV");
+        //TODO implement FileUpload & FormPanel by yourself
         final FormPanel form = new FormPanel();
         final TextBox bookId = new TextBox();
         final TextBox bookName = new TextBox();
@@ -371,6 +500,7 @@ public class Kitab implements EntryPoint {
 
         public Book_Adder() {
             RootPanel.get("bookName").clear();
+            RootPanel.get("search2").clear();
             bookId.setText("Book Id");
             bookName.setText("Book Name");
             authorName.setText("Author Name");
@@ -384,11 +514,11 @@ public class Kitab implements EntryPoint {
             RootPanel.get("addbook").add(back);
             RootPanel.get("gwtContainer").add(form);
 
-            //define url to which POST the data
-            form.setAction("http://www.tutorialspoint.com/gwt/myFormHandler");
-            // set form to use the POST method, and multipart MIME encoding.
-            form.setEncoding(FormPanel.ENCODING_MULTIPART);
-            form.setMethod(FormPanel.METHOD_POST);
+            //TODO define url to which POST the form data
+//            form.setAction("http://www.tutorialspoint.com/gwt/myFormHandler");
+//            // set form to use the POST method, and multipart MIME encoding.
+//            form.setEncoding(FormPanel.ENCODING_MULTIPART);
+//            form.setMethod(FormPanel.METHOD_POST);
 
             back.addClickHandler(new ClickHandler() {
                 @Override
@@ -443,15 +573,6 @@ public class Kitab implements EntryPoint {
             });
         }
 
-//        form.SubmitCompleteEvent(new FormPanel.SubmitCompleteHandler() {
-//            @Override
-//            public void onSubmitComplete(SubmitCompleteEvent event) {
-//                // When the form submission is successfully completed, this
-//                //event is fired. Assuming the service returned a response
-//                //of type text/html, we can get the result text here
-//                Window.alert(event.getResults());
-//            }
-//        });
     }
 
     private static class ConfirmDialog extends DialogBox {
@@ -459,34 +580,35 @@ public class Kitab implements EntryPoint {
         DockPanel panel = new DockPanel();
         Label label = new Label("Are you sure?");
         Button no= new Button("Cancel");
-        Button yes = new Button("Log Out");
+        Button yes = new Button("Log out?");
 
         public ConfirmDialog() {
             setAnimationEnabled(true);
             setGlassEnabled(true);
+
             yes.addClickHandler(new ClickHandler() {
                 @Override
                 public void onClick(ClickEvent event) {
-                    ConfirmDialog.this.hide();
-                    Cookies.removeCookie("sid");
-                    LoginService.Util.getInstance().logout(Cookies.getCookie("sid"), new AsyncCallback<Boolean>() {
-                        @Override
-                        public void onFailure(Throwable caught)
-                        {
-                            Window.alert("logout fail");
-                        }
-
-                        @Override
-                        public void onSuccess(Boolean result) {
-                            if(result) {
-                                cleareverything();
-                                LoginPage loginPage = new LoginPage();
-                            } else {
-                                Window.alert("Logout failed");
+//                    if(text == "Log out?") {
+                        ConfirmDialog.this.hide();
+                        Cookies.removeCookie("sid");
+                        LoginService.Util.getInstance().logout(Cookies.getCookie("sid"), new AsyncCallback<Boolean>() {
+                            @Override
+                            public void onFailure(Throwable caught)
+                            {
+                                Window.alert("logout fail");
                             }
-                        }
-                    });
 
+                            @Override
+                            public void onSuccess(Boolean result) {
+                                if(result) {
+                                    cleareverything();
+                                    LoginPage loginPage = new LoginPage();
+                                } else {
+                                    Window.alert("Logout failed");
+                                }
+                            }
+                        });
                 }
             });
             no.addClickHandler(new ClickHandler() {
@@ -506,6 +628,57 @@ public class Kitab implements EntryPoint {
         }
     }
 
+    private static class ConfirmDialog2 extends DialogBox {
+        DockPanel panel = new DockPanel();
+        Label label = new Label("Are you sure?");
+        Button no= new Button("Cancel");
+        Button yes = new Button("Delete?");
+        public ConfirmDialog2(final String bookId) {
+            setAnimationEnabled(true);
+            setGlassEnabled(true);
+            yes.addClickHandler(new ClickHandler() {
+                @Override
+                public void onClick(ClickEvent event) {
+                    DeleteBookRequest deleteBookRequest = new DeleteBookRequest();
+                    deleteBookRequest.setBookId(bookId);
+                    BookService.Util.getInstance().deleteBook(deleteBookRequest,new AsyncCallback<Boolean>() {
+                        @Override
+                        public void onFailure(Throwable caught)
+                        {
+                            Window.alert("delete fail");
+                        }
+
+                        @Override
+                        public void onSuccess(Boolean result) {
+                            if(result) {
+                                ConfirmDialog2.this.hide();
+                                cleareverything();
+                                getBooks();
+                            } else {
+                                Window.alert("delete fail");
+                            }
+                        }
+                    });
+                }
+            });
+            no.addClickHandler(new ClickHandler() {
+                @Override
+                public void onClick(ClickEvent event) {
+                    ConfirmDialog2.this.hide();
+                }
+            });
+            panel.setHeight("50");
+            panel.setWidth("250");
+            panel.setSpacing(5);
+            panel.setHorizontalAlignment(HasHorizontalAlignment.ALIGN_CENTER);
+            panel.add(label, DockPanel.NORTH);
+            panel.add(yes, DockPanel.EAST);
+            panel.add(no, DockPanel.WEST);
+            setWidget(panel);
+        }
+
+    }
+
     private static class MyDialog extends DialogBox {
 
         DockPanel panel = new DockPanel();
@@ -513,6 +686,7 @@ public class Kitab implements EntryPoint {
         Button update = new Button("Update");
         Button next = new Button("Next >>");
         Button back = new Button("<< Back");
+        Button delete = new Button("Delete?");
         int i = 0;
 
         public MyDialog(final List<BookDetails> bookDetails) {
@@ -521,6 +695,17 @@ public class Kitab implements EntryPoint {
             setGlassEnabled(true);
             ok.addClickHandler(new ClickHandler() {
                 public void onClick(ClickEvent event) {
+                    MyDialog.this.hide();
+                }
+            });
+            delete.addClickHandler(new ClickHandler() {
+                @Override
+                public void onClick(ClickEvent event) {
+                    ConfirmDialog2 confirmDialog = new ConfirmDialog2(bookDetails.get(i).getBookId());
+                    int left = Window.getClientWidth()/ 3;
+                    int top = Window.getClientHeight()/ 3;
+                    confirmDialog.setPopupPosition(left, top);
+                    confirmDialog.show();
                     MyDialog.this.hide();
                 }
             });
@@ -538,7 +723,7 @@ public class Kitab implements EntryPoint {
                     if(i != (bookDetails.size()-1) ) {
                         panel.clear();
                         i++;
-                        work(bookDetails.get(i));
+                        work(bookDetails.get(i), bookDetails.size());
                     }
                 }
             });
@@ -548,25 +733,27 @@ public class Kitab implements EntryPoint {
                     if(i != 0) {
                         panel.clear();
                         i--;
-                        work(bookDetails.get(i));
+                        work(bookDetails.get(i), bookDetails.size());
                     }
                 }
             });
 
-            work(bookDetails.get(i));
+            work(bookDetails.get(i), bookDetails.size());
         }
 
-        public void work(final BookDetails bookDetails) {
+        public void work(final BookDetails bookDetails, int count) {
 
             Label id = new Label("Id: "+bookDetails.getBookId());
             Label name = new Label("Name: "+bookDetails.getBookName());
             Label author = new Label("Author: "+bookDetails.getAuthorName());
             Label rating = new Label("Ratings(Out of 5): "+ bookDetails .getRatings());
             Label isAvail = new Label("Is it Available?: "+ bookDetails.getIsAvailable());
+            Label stock = new Label("Stock count: " + count);
             panel.setHeight("100");
             panel.setWidth("500");
             panel.setSpacing(10);
             panel.setHorizontalAlignment(HasHorizontalAlignment.ALIGN_CENTER);
+            panel.add(stock, DockPanel.LINE_END);
             panel.add(id,DockPanel.NORTH);
             panel.add(name,DockPanel.NORTH);
             panel.add(author,DockPanel.NORTH);
@@ -576,6 +763,53 @@ public class Kitab implements EntryPoint {
             panel.add(ok,DockPanel.CENTER);
             panel.add(next,DockPanel.EAST);
             panel.add(back,DockPanel.WEST);
+            panel.add(delete,DockPanel.LINE_END);
+            setWidget(panel);
+        }
+    }
+
+    private static class GoogleDialog extends DialogBox {
+        DockPanel panel = new DockPanel();
+        Button ok = new Button("OK");
+
+        public GoogleDialog(final BookDetails book) {
+//            Image image = new Image();
+//            image.setUrl(book.getBookId());
+
+            Label name = new Label("Name: "+book.getBookName());
+            Label author = new Label("Author: "+book.getAuthorName());
+            Label rating = new Label("Average Rating: "+ book.getRatings());
+            setText("Book Details");
+            setAnimationEnabled(true);
+            setGlassEnabled(true);
+            panel.setHeight("100");
+            panel.setWidth("500");
+            panel.setSpacing(10);
+            panel.add(name,DockPanel.NORTH);
+            panel.add(author,DockPanel.NORTH);
+            panel.add(rating,DockPanel.NORTH);
+            panel.add(ok,DockPanel.CENTER);
+//            UrlBuilder url =new UrlBuilder();
+//            if(book.getBookId() != null) {
+//                url.setProtocol("https");
+//                url.setHost("play.google.com");
+//                url.setPath("/store/books/details");
+//                String id = book.getBookId().substring(book.getBookId().lastIndexOf('?')+4,book.getBookId().lastIndexOf('&'));
+//                url.setParameter("id",id);
+//                url.setParameter("source","gbs_api");
+//            } else {
+//                url.setPath("null");
+//            }
+//            Anchor anchor = new Anchor("Preview >>",
+//                    false,
+//                    url.buildString(),
+//                    "_blank");
+//            panel.add(anchor,DockPanel.EAST);
+            ok.addClickHandler(new ClickHandler() {
+                public void onClick(ClickEvent event) {
+                    GoogleDialog.this.hide();
+                }
+            });
             setWidget(panel);
         }
     }
@@ -683,7 +917,9 @@ public class Kitab implements EntryPoint {
     }
 
     private static void cleareverything() {
+        RootPanel.get("search2").clear();
         RootPanel.get("header").clear();
+        RootPanel.get("header2").clear();
         RootPanel.get("checker").clear();
         RootPanel.get("slot0").clear();
         RootPanel.get("slot1").clear();

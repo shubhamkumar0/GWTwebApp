@@ -2,7 +2,7 @@ package com.example.server.book.AddBook;
 
 import com.example.shared.book.AddBookRequest;
 import com.example.shared.book.AddBookResponse;
-import com.sun.org.apache.xpath.internal.operations.Bool;
+
 
 import java.sql.Connection;
 import java.sql.DriverManager;
