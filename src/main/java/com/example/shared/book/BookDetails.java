@@ -2,8 +2,14 @@ package com.example.shared.book;
 
 import com.google.gwt.user.client.rpc.IsSerializable;
 
-public class BookDetails implements IsSerializable{
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
+@Entity
+@Table(name = "BookDetailsTable")
+public class BookDetails implements IsSerializable{
+    @Id
     private String bookId;
     private String bookName;
     private String authorName;
@@ -49,4 +55,13 @@ public class BookDetails implements IsSerializable{
     public void setIsAvailable(boolean isAvailable) {
         this.isAvailable = isAvailable;
     }
+
+//    public BookDetails(com.example.shared.book.BookDetailsTable bookDetailsTable) {
+//        bookId = bookDetailsTable.getBookId();
+//        bookName = bookDetailsTable.getBookName();
+//        authorName = bookDetailsTable.getAuthorName();
+//        ratings = bookDetailsTable.getRatings();
+//        isAvailable = bookDetailsTable.getIsAvailable();
+//    }
+
 }

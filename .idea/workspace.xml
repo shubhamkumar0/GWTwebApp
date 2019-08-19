@@ -7,23 +7,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b66b58af-9c30-4eff-9645-65cdd9f90783" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Kitab.gwt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Kitab.gwt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shubham.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shubham.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/BookServiceAsync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/BookServiceAsync.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/SignUpUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/public/Kitab.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/public/Kitab.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/public/Kitab.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/public/Kitab.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/book/AddBook/AddBookToDataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/book/AddBook/AddBookToDataStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/FormatConverters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/FormatConverters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/book/GetAllBooksFromDataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/book/GetAllBooksFromDataStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/book/JpaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/book/JpaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/book/Tables/BookDetailsTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/book/Tables/BookDetailsTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/server/search/SearchByName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/server/search/SearchByName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shared/book/BookDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shared/book/BookDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Globals/GlobalConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Globals/GlobalConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/BookService$Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/BookService$Util.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/BookServiceAsync.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/BookServiceAsync.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$6$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$8$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$8$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder$2$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$Book_Adder$2.class" afterDir="false" />
@@ -33,6 +52,12 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$ConfirmDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$ConfirmDialog$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$ConfirmDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$ConfirmDialog$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$ConfirmDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$ConfirmDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$ConfirmDialog2$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$ConfirmDialog2$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$ConfirmDialog2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$ConfirmDialog2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$ConfirmDialog2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$ConfirmDialog2$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$ConfirmDialog2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$ConfirmDialog2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$GoogleDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$GoogleDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$GoogleDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$GoogleDialog.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage$2$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$LoginPage$2.class" afterDir="false" />
@@ -43,61 +68,79 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$4$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MainPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$MyDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage$1$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$RegisterPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab$UpdateBook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/Kitab.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/Kitab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/client/BookService$App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/client/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/client/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/client/BookServiceAsync.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/client/BookServiceAsync.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/client/Kitab$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/client/Kitab$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/client/Kitab$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/client/Kitab.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/client/Kitab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/client/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/client/LoginService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/client/LoginServiceAsync.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/client/LoginServiceAsync.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/client/SearchService$App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/client/SearchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/client/SearchService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/client/SearchServiceAsync.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/client/SearchServiceAsync.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/client/SignUpUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/FormatConverters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/FormatConverters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/book/AddBook/AddBookRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/book/AddBook/AddBookResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/book/AddBook/AddBookToDataStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/book/AddBook/AddBookToDataStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/book/BookDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/book/DeleteBook/DeleteBookFromDataStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/book/DeleteBook/DeleteBookFromDataStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/book/DeleteBook/DeleteBookRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/book/DeleteBook/DeleteBookResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/book/GetAllBooksFromDataStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/book/GetAllBooksFromDataStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/book/UpdateBook/UpdateBookInDataStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/book/UpdateBook/UpdateBookInDataStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/book/UpdateBook/UpdateBookRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/book/UpdateBook/UpdateBookResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/book/bookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/book/bookServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/login/SignUp/SignUpUserImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/login/Tables/SessionTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/login/Tables/UserDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/login/logInServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/login/logInServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/search/SearchRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/search/SearchResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/search/searchServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/search/searchServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/shared/LogInRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/shared/LogInResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/shared/SignUpRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/shared/SignUpResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/shared/logOutRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/shared/logOutResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/LoginService$Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/LoginService$Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/LoginService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/LoginServiceAsync.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/LoginServiceAsync.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/SearchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/SearchService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/client/SearchServiceAsync.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/client/SearchServiceAsync.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/FormatConverters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/FormatConverters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/TableSetup/TableSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/TableSetup/TableSetup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/TableSetup/tableSetupTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/TableSetup/tableSetupTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/book/AddBook/AddBookToDataStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/book/AddBook/AddBookToDataStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/book/AddBook/Test/AddBookToDataStoreTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/book/AddBook/Test/AddBookToDataStoreTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/book/DeleteBook/DeleteBookFromDataStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/book/DeleteBook/DeleteBookFromDataStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/book/GetAllBooksFromDataStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/book/GetAllBooksFromDataStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/book/Tables/BookDetailsTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/book/UpdateBook/UpdateBookInDataStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/book/UpdateBook/UpdateBookInDataStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/book/bookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/book/bookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/login/LogIn/LoginUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/login/LogIn/LoginUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/login/SignUp/SignUserUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/login/SignUp/SignUserUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/login/logInServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/login/logInServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/search/SearchByName.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/search/SearchByName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/server/search/searchServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/server/search/searchServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shared/book/AddBookRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shared/book/AddBookRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shared/book/AddBookResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shared/book/AddBookResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shared/book/BookDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shared/book/BookDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shared/book/DeleteBookRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shared/book/DeleteBookRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shared/book/DeleteBookResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shared/book/DeleteBookResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shared/book/UpdateBookRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shared/book/UpdateBookRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shared/book/UpdateBookResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shared/book/UpdateBookResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shared/login/LogInRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shared/login/LogInRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shared/login/LogInResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shared/login/LogInResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shared/login/SignUpRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shared/login/SignUpRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shared/login/SignUpResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shared/login/SignUpResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shared/login/UserDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shared/login/UserDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shared/login/logOutRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shared/login/logOutRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shared/login/logOutResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shared/login/logOutResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shared/search/SearchRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shared/search/SearchRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shared/search/SearchResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shared/search/SearchResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shubham.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/shubham.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shubham/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shubham/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/META-INF/shubham.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/client/Kitab$KitabAsyncCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/client/LoginService$App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/login/LogIn/LogInRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/login/LogIn/LogInResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/login/LogOut/logOutRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/login/LogOut/logOutResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/login/SignUp/SignUpRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/classes/com/example/server/login/SignUp/SignUpResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shubham/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/war/WEB-INF/lib/spring-core-4.3.3.RELEASE.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/demo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,32 +167,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/Kitab.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="17" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="17" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#head#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/BookService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+            <state relative-caret-position="60">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,147 +179,95 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Kitab.gwt.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="365" column="39" selection-start-line="365" selection-start-column="39" selection-end-line="365" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3007#3180#0" expanded="true" />
-                <element signature="e#3179#3180#0" expanded="true" />
-                <element signature="e#3214#3396#0" expanded="true" />
-                <element signature="e#3395#3396#0" expanded="true" />
-                <element signature="e#4536#4768#0" expanded="true" />
-                <element signature="e#4767#4768#0" expanded="true" />
-                <element signature="e#4806#5818#0" expanded="true" />
-                <element signature="e#5817#5818#0" expanded="true" />
-                <element signature="e#6951#7192#0" expanded="true" />
-                <element signature="e#7191#7192#0" expanded="true" />
-                <element signature="e#7255#8718#0" expanded="true" />
-                <element signature="e#5056#5057#0" expanded="true" />
-                <element signature="e#5158#5159#0" expanded="true" />
-                <element signature="e#8717#8718#0" expanded="true" />
-                <element signature="e#8761#8929#0" expanded="true" />
-                <element signature="e#8928#8929#0" expanded="true" />
-                <element signature="e#7848#7849#0" expanded="true" />
-                <element signature="e#7927#7928#0" expanded="true" />
-                <element signature="e#7985#7986#0" expanded="true" />
-                <element signature="e#8057#8058#0" expanded="true" />
-                <element signature="e#10569#11048#0" expanded="true" />
-                <element signature="e#11047#11048#0" expanded="true" />
-                <element signature="e#11596#11795#0" expanded="true" />
-                <element signature="e#11794#11795#0" expanded="true" />
-                <element signature="e#7690#7691#0" expanded="true" />
-                <element signature="e#7808#7809#0" expanded="true" />
-                <element signature="e#13613#14238#0" expanded="true" />
-                <element signature="e#14237#14238#0" expanded="true" />
-                <element signature="e#16130#17985#0" expanded="true" />
-                <element signature="e#17984#17985#0" expanded="true" />
-                <element signature="e#10093#10094#0" expanded="true" />
-                <element signature="e#10179#10180#0" expanded="true" />
-                <element signature="e#19780#20883#0" expanded="true" />
-                <element signature="e#20882#20883#0" expanded="true" />
-                <element signature="e#22774#22979#0" expanded="true" />
-                <element signature="e#22978#22979#0" expanded="true" />
-                <element signature="e#23015#24587#0" expanded="true" />
-                <element signature="e#8722#8723#0" expanded="true" />
-                <element signature="e#8829#8830#0" expanded="true" />
-                <element signature="e#24586#24587#0" expanded="true" />
-                <element signature="e#24630#25161#0" expanded="true" />
-                <element signature="e#25160#25161#0" expanded="true" />
-                <element signature="e#25574#26688#0" expanded="true" />
-                <element signature="e#26035#26036#0" expanded="true" />
-                <element signature="e#26118#26119#0" expanded="true" />
-                <element signature="e#26687#26688#0" expanded="true" />
-                <element signature="e#27666#28567#0" expanded="true" />
-                <element signature="e#28129#28130#0" expanded="true" />
-                <element signature="e#28220#28221#0" expanded="true" />
-                <element signature="e#28566#28567#0" expanded="true" />
-                <element signature="e#29810#29960#0" expanded="true" />
-                <element signature="e#29959#29960#0" expanded="true" />
-                <element signature="e#29998#30428#0" expanded="true" />
-                <element signature="e#30427#30428#0" expanded="true" />
-                <element signature="e#30466#30761#0" expanded="true" />
-                <element signature="e#30760#30761#0" expanded="true" />
-                <element signature="e#30797#31146#0" expanded="true" />
-                <element signature="e#31145#31146#0" expanded="true" />
-                <element signature="e#34480#34634#0" expanded="true" />
-                <element signature="e#34633#34634#0" expanded="true" />
-                <element signature="e#35880#37720#0" expanded="true" />
-                <element signature="e#14843#14844#0" expanded="true" />
-                <element signature="e#14962#14963#0" expanded="true" />
-                <element signature="e#37719#37720#0" expanded="true" />
-                <element signature="e#37756#37961#0" expanded="true" />
-                <element signature="e#37960#37961#0" expanded="true" />
-                <element signature="e#38824#39189#0" expanded="true" />
-                <element signature="e#39188#39189#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/BookServiceAsync.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/book/BookDetails.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/book/DeleteBookRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/AddBook/AddBookToDataStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/search/searchServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="165">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/search/SearchByName.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#385#386#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/springgwt/demo/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/springgwt/demo/Book/BookService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
+                <element signature="e#969#970#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/springgwt/demo/Book/Books.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/springgwt/demo/Book/BookDetails.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/springgwt/demo/Book/BookRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -311,19 +280,15 @@
         <option value="Interface" />
         <option value="Jsp File" />
         <option value="Tag Library Descriptor" />
-        <option value="spring-beans.schema" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>persistence</find>
-      <find>LoginS</find>
-      <find>mysql</find>
-      <find>login</find>
       <find>Rebind</find>
       <find>IsSe</find>
       <find>CompositeExample</find>
@@ -343,11 +308,23 @@
       <find>RequestB</find>
       <find>UpdateList</find>
       <find>work</find>
+      <find>web.xml</find>
+      <find>com.examp</find>
+      <find>BookService</find>
+      <find>Sorry, could not fetch books :|</find>
+      <find>SpringGwtRemoteServiceServlet</find>
+      <find>BookDetailstable</find>
+      <find>m.example.shared.book.BookDetailsTable;</find>
+      <find>BookDetailsTable</find>
+      <find>org.springframework.util.unit</find>
+      <find>Kitab</find>
+      <find>Remember me</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
       <dir>$PROJECT_DIR$/src/main/java/com/example/shared</dir>
       <dir>$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/clean/clean.css</dir>
+      <dir>$PROJECT_DIR$/war</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -356,57 +333,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/example/client/LoginApplication_bak.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/client/LoginApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/signup.jsp" />
-        <option value="$PROJECT_DIR$/war/com.example.Kitab/Kitab.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/htmls/signup.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/htmls/login.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/htmls/Main.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/js'/signup.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/public/login.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/public/signup.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/public/scripts/signup.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/shared/logInServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/shared/SignUpRequest.java" />
-        <option value="$PROJECT_DIR$/target/generated-sources/annotations/com/example/client/BookServiceAsync.java" />
-        <option value="$PROJECT_DIR$/target/generated-sources/annotations/com/example/client/SearchServiceAsync.java" />
-        <option value="$PROJECT_DIR$/target/generated-sources/annotations/com/example/client/LoginServiceAsync.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/shared/SignUpResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/shared/login/SignUpResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/client/SearchService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/shared/book/BookDetails.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/client/Main.ui.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/client/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/public/Main.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/server/login/SignUp/SignUpUserImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/server/search/SearchRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/server/search/SearchResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/client/SearchServiceAsync.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/server/search/searchServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/DeleteBook/DeleteBookFromDataStore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/UpdateBook/UpdateBookInDataStore.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/shared/search/SearchResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/server/search/SearchByName.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/GetAllBooksFromDataStore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/client/BookServiceAsync.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/shared/FileUpload.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/client/SignUpUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/shared/login/UserDetails.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/client/LoginServiceAsync.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/client/LoginService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/public/Kitab.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/server/login/LogIn/LoginUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/Kitab.gwt.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/public/Kitab.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/shared/book/Tab.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/client/BookService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/AddBook/AddBookToDataStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/server/login/LoginRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/server/TableSetup/TableSetup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/shared/book/BookDetailsTable.java" />
+        <option value="$PROJECT_DIR$/war/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/Kitab.gwt.xml" />
+        <option value="$PROJECT_DIR$/war/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/JpaDAO.java" />
+        <option value="$PROJECT_DIR$/war/WEB-INF/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/shared/book/BookDetails.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/server/HibernateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/BookDetails.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/Tables/BookDetailsTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/server/FormatConverters.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/client/BookServiceAsync.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/client/BookService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/BookRepository.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/example/springgwt/demo/databaseAccess.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/example/springgwt/demo/BookDetails.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/example/springgwt/demo/Book/databaseAccess.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/example/springgwt/demo/DemoApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/shared/book/BookDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/GetAllBooksFromDataStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/example/springgwt/demo/MainController.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/example/springgwt/demo/Book/Books.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/example/springgwt/demo/Book/BookDetails.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/example/springgwt/demo/Book/BookRepository.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/example/springgwt/demo/Book/BookService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/public/Kitab.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/public/Kitab.html" />
+        <option value="$PROJECT_DIR$/demo/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/server/search/SearchByName.java" />
       </list>
     </option>
   </component>
@@ -435,11 +412,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1" />
     <option name="y" value="23" />
     <option name="width" value="1439" />
-    <option name="height" value="811" />
+    <option name="height" value="821" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -455,99 +432,6 @@
               <item name="shubham" type="b2602c69:ProjectViewProjectNode" />
               <item name="shubham" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="shubham" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shubham" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shubham" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shubham" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shubham" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shubham" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shubham" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shubham" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shubham" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shubham" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shubham" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shubham" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shubham" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shubham" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shubham" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shubham" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shubham" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shubham" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shubham" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shubham" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shubham" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shubham" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shubham" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shubham" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -561,10 +445,14 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo/src/main/resources/static" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -574,22 +462,24 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/example/client" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/example/public" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/htmls" />
-      <recent name="$PROJECT_DIR$/war/com.example.Kitab" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="client" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
+      <recent name="$PROJECT_DIR$/target/shubham/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/target/shubham/META-INF" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/example/client" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/demo/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/war/WEB-INF/lib" />
+      <recent name="$PROJECT_DIR$/war/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/client" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="client" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -604,13 +494,60 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.22">
+  <component name="RunManager" selected="GWT Configuration.Unnamed">
     <configuration name="Unnamed" type="GWT.ConfigurationType" factoryName="GWT Configuration" nameIsGenerated="true">
       <option name="RUN_PAGE" value="com.example.Kitab/Kitab.html" />
       <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
       <option name="USE_SUPER_DEV_MODE" value="true" />
       <option name="WORKING_DIRECTORY" value="" />
       <module name="shubham" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bookServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shubham" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springgwt.demo.Book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.server.book" />
+      <option name="MAIN_CLASS_NAME" value="com.example.server.book.bookServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bookServiceImplTest.TableInitialized" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shubham" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springgwt.demo.Book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.server.book" />
+      <option name="MAIN_CLASS_NAME" value="com.example.server.book.bookServiceImplTest" />
+      <option name="METHOD_NAME" value="TableInitialized" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bookServiceImplTest.addBookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shubham" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springgwt.demo.Book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.server.book" />
+      <option name="MAIN_CLASS_NAME" value="com.example.server.book.bookServiceImplTest" />
+      <option name="METHOD_NAME" value="addBookTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -632,6 +569,13 @@
     </configuration>
     <configuration name="Unnamed JavaScript" type="JavascriptDebugType" uri="http://127.0.0.1:8888/com.example.Kitab/Kitab.html">
       <method v="2" />
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springgwt.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Tomcat 9.0.22" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.22" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8089/shubham_war_exploded/" />
@@ -772,10 +716,17 @@
       <item itemvalue="GWT Configuration.Unnamed" />
       <item itemvalue="JavaScript Debug.Unnamed JavaScript" />
       <item itemvalue="JUnit.tableSetupTest" />
+      <item itemvalue="JUnit.bookServiceImplTest" />
+      <item itemvalue="JUnit.bookServiceImplTest.addBookTest" />
+      <item itemvalue="JUnit.bookServiceImplTest.TableInitialized" />
+      <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.22" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.bookServiceImplTest.TableInitialized" />
+        <item itemvalue="JUnit.bookServiceImplTest.addBookTest" />
+        <item itemvalue="JUnit.bookServiceImplTest" />
         <item itemvalue="JUnit.tableSetupTest" />
       </list>
     </recent_temporary>
@@ -796,43 +747,47 @@
       <updated>1563866695461</updated>
       <workItem from="1563866699802" duration="69135000" />
       <workItem from="1564135816070" duration="118479000" />
+      <workItem from="1565094093422" duration="63003000" />
+      <workItem from="1565341899247" duration="2913000" />
+      <workItem from="1565699915197" duration="1166000" />
+      <workItem from="1566195794431" duration="814000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="tableSetupTest - 2019.07.23 at 15h 26m 21s.xml">
-      <configuration name="tableSetupTest" configurationId="JUnit" />
+    <history-entry file="bookServiceImplTest_TableInitialized - 2019.08.07 at 19h 18m 38s.xml">
+      <configuration name="bookServiceImplTest.TableInitialized" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="tableSetupTest - 2019.07.23 at 15h 26m 40s.xml">
-      <configuration name="tableSetupTest" configurationId="JUnit" />
+    <history-entry file="bookServiceImplTest_TableInitialized - 2019.08.07 at 19h 20m 55s.xml">
+      <configuration name="bookServiceImplTest.TableInitialized" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="tableSetupTest - 2019.07.23 at 15h 27m 39s.xml">
-      <configuration name="tableSetupTest" configurationId="JUnit" />
+    <history-entry file="bookServiceImplTest_TableInitialized - 2019.08.07 at 19h 24m 42s.xml">
+      <configuration name="bookServiceImplTest.TableInitialized" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="tableSetupTest - 2019.07.23 at 15h 36m 22s.xml">
-      <configuration name="tableSetupTest" configurationId="JUnit" />
+    <history-entry file="bookServiceImplTest_TableInitialized - 2019.08.07 at 19h 37m 51s.xml">
+      <configuration name="bookServiceImplTest.TableInitialized" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="tableSetupTest - 2019.07.23 at 16h 09m 16s.xml">
-      <configuration name="tableSetupTest" configurationId="JUnit" />
+    <history-entry file="bookServiceImplTest_TableInitialized - 2019.08.07 at 19h 41m 42s.xml">
+      <configuration name="bookServiceImplTest.TableInitialized" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="tableSetupTest - 2019.07.23 at 16h 09m 31s.xml">
-      <configuration name="tableSetupTest" configurationId="JUnit" />
+    <history-entry file="bookServiceImplTest_TableInitialized - 2019.08.07 at 20h 18m 25s.xml">
+      <configuration name="bookServiceImplTest.TableInitialized" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="tableSetupTest - 2019.07.23 at 16h 12m 58s.xml">
-      <configuration name="tableSetupTest" configurationId="JUnit" />
+    <history-entry file="bookServiceImplTest_TableInitialized - 2019.08.08 at 01h 01m 44s.xml">
+      <configuration name="bookServiceImplTest.TableInitialized" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="tableSetupTest - 2019.07.23 at 16h 13m 03s.xml">
-      <configuration name="tableSetupTest" configurationId="JUnit" />
+    <history-entry file="bookServiceImplTest_TableInitialized - 2019.08.08 at 01h 14m 16s.xml">
+      <configuration name="bookServiceImplTest.TableInitialized" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="tableSetupTest - 2019.07.23 at 16h 25m 48s.xml">
-      <configuration name="tableSetupTest" configurationId="JUnit" />
+    <history-entry file="bookServiceImplTest_TableInitialized - 2019.08.08 at 01h 14m 45s.xml">
+      <configuration name="bookServiceImplTest.TableInitialized" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="tableSetupTest - 2019.07.30 at 09h 57m 04s.xml">
-      <configuration name="tableSetupTest" configurationId="JUnit" />
+    <history-entry file="bookServiceImplTest_TableInitialized - 2019.08.08 at 01h 14m 48s.xml">
+      <configuration name="bookServiceImplTest.TableInitialized" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187614000" />
+    <option name="totallyTimeSpent" value="263280000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -844,7 +799,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="816" extended-state="6" />
+    <frame x="1" y="23" width="1439" height="821" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -852,33 +807,35 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.20314735" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.2627058" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32962447" />
       <window_info anchor="bottom" id="Spring" order="1" weight="0.32962447" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49892628" weight="0.2058011" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.49892628" visible="true" weight="0.5185185" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="4" sideWeight="0.4996421" weight="0.32962447" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5010737" side_tool="true" weight="0.42141864" />
-      <window_info anchor="bottom" id="Messages" order="6" weight="0.609116" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32962447" />
+      <window_info anchor="bottom" id="Messages" order="6" weight="0.14032698" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.21140473" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.4996421" visible="true" weight="0.73895025" />
-      <window_info anchor="bottom" id="Application Servers" order="11" sideWeight="0.4996421" weight="0.32872927" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32962447" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.4996421" weight="0.70435965" />
+      <window_info anchor="bottom" id="Application Servers" order="11" sideWeight="0.4996421" weight="0.32823366" />
       <window_info anchor="bottom" id="Message" order="12" />
-      <window_info anchor="bottom" id="Find" order="13" weight="0.32962447" />
-      <window_info anchor="bottom" id="Debug" order="14" sideWeight="0.49892628" weight="0.60359114" />
+      <window_info anchor="bottom" id="Find" order="13" weight="0.3852573" />
+      <window_info anchor="bottom" id="Debug" order="14" sideWeight="0.49892628" weight="0.040927693" />
       <window_info anchor="bottom" id="Cvs" order="15" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="16" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="17" weight="0.04172462" />
+      <window_info anchor="bottom" id="Statistic" order="18" weight="0.32962447" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32999283" />
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="Database" order="3" weight="0.32999283" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Bean Validation" order="6" weight="0.32999283" />
+      <window_info anchor="right" id="Bean Validation" order="6" weight="0.32856122" />
       <window_info anchor="right" id="Maven" order="7" weight="0.32856122" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
@@ -891,33 +848,35 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.20314735" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.20544022" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32962447" />
-      <window_info anchor="bottom" id="Spring" order="1" weight="0.32962447" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49892628" weight="0.14502762" />
-      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection Results" order="4" sideWeight="0.4996421" weight="0.32962447" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5010737" side_tool="true" weight="0.42141864" />
-      <window_info anchor="bottom" id="Messages" order="6" weight="0.54281765" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32962447" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.4996421" weight="0.17541437" />
-      <window_info anchor="bottom" id="Application Servers" order="11" sideWeight="0.4996421" weight="0.32962447" />
-      <window_info anchor="bottom" id="Message" order="12" />
-      <window_info anchor="bottom" id="Find" order="13" weight="0.32962447" />
-      <window_info active="true" anchor="bottom" id="Debug" order="14" sideWeight="0.49892628" visible="true" weight="0.05248619" />
-      <window_info anchor="bottom" id="Cvs" order="15" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="16" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="17" weight="0.04172462" />
+      <window_info id="Persistence" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="0" weight="0.32962447" />
+      <window_info anchor="bottom" id="Thumbnails" order="1" weight="0.32962447" />
+      <window_info anchor="bottom" id="Spring" order="2" weight="0.32962447" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.49892628" visible="true" weight="0.04172462" />
+      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection Results" order="5" sideWeight="0.4996421" weight="0.32962447" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5010737" side_tool="true" weight="0.42141864" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.39499304" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.21140473" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32962447" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.4996421" weight="0.16133519" />
+      <window_info anchor="bottom" id="Application Servers" order="12" sideWeight="0.4996421" weight="0.32823366" />
+      <window_info anchor="bottom" id="Message" order="13" />
+      <window_info anchor="bottom" id="Find" order="14" weight="0.3852573" />
+      <window_info anchor="bottom" id="Debug" order="15" sideWeight="0.49892628" weight="0.36022252" />
+      <window_info anchor="bottom" id="Cvs" order="16" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="17" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="18" weight="0.04172462" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32999283" />
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="Database" order="3" weight="0.32999283" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Bean Validation" order="6" weight="0.32999283" />
+      <window_info anchor="right" id="Bean Validation" order="6" weight="0.32856122" />
       <window_info anchor="right" id="Maven" order="7" weight="0.32856122" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
@@ -943,12 +902,6 @@
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImpl.java</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/server/book/GetAllBooksFromDataStore.java</url>
           <line>45</line>
           <properties />
@@ -956,13 +909,13 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java</url>
-          <line>49</line>
+          <line>43</line>
           <properties />
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java</url>
-          <line>29</line>
+          <line>31</line>
           <properties />
           <option name="timeStamp" value="116" />
         </line-breakpoint>
@@ -972,9 +925,39 @@
           <properties />
           <option name="timeStamp" value="117" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImpl.java</url>
+          <line>240</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImpl.java</url>
+          <line>252</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImpl.java</url>
+          <line>272</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/server/search/SearchByName.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/server/search/SearchByName.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java</url>
-          <line>17</line>
+          <line>19</line>
           <properties class="com.example.server.login.logInServiceImpl" method="signUpUser">
             <option name="EMULATED" value="true" />
           </properties>
@@ -987,300 +970,89 @@
     <SUITE FILE_PATH="coverage/shubham$Unnamed_JavaScript.dat" NAME="Unnamed JavaScript Coverage Results" MODIFIED="1564033463968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/login/LogInResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/login/logOutRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/login/SignUpRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/signup.html">
+    <entry file="file://$PROJECT_DIR$/shubham.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/Main.html">
+    <entry file="file://$PROJECT_DIR$/target/shubham/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/JpaDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        <state relative-caret-position="413">
+          <caret line="50" column="2" lean-forward="true" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/SearchService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.3.RELEASE/spring-context-4.3.3.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="208">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/search/SearchByName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/UIObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="558" selection-start-line="558" selection-end-line="558" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/DialogBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-581">
-          <caret line="131" column="13" selection-start-line="131" selection-start-column="13" selection-end-line="131" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/HasVerticalAlignment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/images/Grey.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/search/SearchResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/theme/clean/Clean.gwt.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/FileUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/SearchServiceAsync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/javax/servlet/http/HttpSession.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/SignUpUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/Cookies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1564">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/server/rpc/RemoteServiceServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="381" selection-start-line="381" selection-end-line="381" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/server/rpc/AbstractRemoteServiceServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/UpdateBook/UpdateBookInDataStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/Kitab.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/Label.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1415">
-          <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/LoginServiceAsync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/GetAllBooksFromDataStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="104" column="24" selection-start-line="84" selection-start-column="8" selection-end-line="104" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/login/UserDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-end-line="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/login/LogIn/LoginUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/server/rpc/RPC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="586" selection-start-line="586" selection-end-line="586" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/FileUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="84" column="12" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/FormPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="79" column="30" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/war/WEB-INF/application.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties.xml" />
+    <entry file="file://$PROJECT_DIR$/war/WEB-INF/web.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/login/logInServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="135">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="68" lean-forward="true" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/HibernateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1515#1516#0" expanded="true" />
-            <element signature="e#1565#1566#0" expanded="true" />
-            <element signature="e#4177#4178#0" expanded="true" />
-            <element signature="e#4207#4208#0" expanded="true" />
-            <element signature="e#4730#4731#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/ListBox.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Kitab.gwt.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="494" column="31" selection-start-line="494" selection-start-column="14" selection-end-line="494" selection-end-column="31" />
+        <state relative-caret-position="135">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/FormatConverters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
           <folding>
-            <element signature="e#15426#15427#0" expanded="true" />
-            <element signature="e#15468#15469#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/client/ui/Anchor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/BookDetails.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5170">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        <state relative-caret-position="15">
+          <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/web/bindery/event/shared/SimpleEventBus.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/TableSetup/TableSetup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="207" selection-start-line="207" selection-end-line="207" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/event/shared/HandlerManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/event/dom/client/KeyUpEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="e#1562#1563#0" expanded="true" />
-            <element signature="e#1593#1594#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="128">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1291,64 +1063,188 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/book/Tab.java">
+    <entry file="file://$PROJECT_DIR$/META-INF/orm.xml" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/springgwt/demo/ServletInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-end-line="10" />
+        <state relative-caret-position="135">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/DeleteBook/DeleteBookFromDataStore.java">
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/springgwt/demo/Book/databaseAccess.java" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/springgwt/demo/DemoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+        <state relative-caret-position="285">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
           <folding>
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/Tables/BookDetailsTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/book/BookDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.1/junit-platform-commons-1.5.1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="355" selection-start-line="355" selection-end-line="355" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.3.RELEASE/spring-web-4.3.3.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="165" column="33" selection-start-line="165" selection-start-column="33" selection-end-line="165" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/GetAllBooksFromDataStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.9.RELEASE/spring-core-5.1.9.RELEASE.jar!/org/springframework/core/convert/support/GenericConversionService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/bookServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="986">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6398#6406#0" expanded="true" />
+            <element signature="e#9892#9900#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/book/DeleteBookRequest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="83">
+          <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/war/com.example.Kitab/com.example.Kitab.nocache.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="51" selection-start-line="51" selection-end-line="52" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/BookServiceAsync.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="285">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/SearchServiceAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/Kitab.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/static/logo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/LoginServiceAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/public/Kitab.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="17" />
+        <state relative-caret-position="120">
+          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#img#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1359,130 +1255,103 @@
             <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../gwt-2.7.0/gwt-user.jar!/com/google/gwt/user/server/rpc/RPC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3038">
+          <caret line="581" column="46" lean-forward="true" selection-start-line="581" selection-start-column="46" selection-end-line="581" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/search/SearchByName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/springgwt/demo/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/springgwt/demo/Book/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/springgwt/demo/Book/Books.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/springgwt/demo/Book/BookDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/springgwt/demo/Book/BookRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/search/searchServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/shared/book/BookDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/BookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/server/book/AddBook/AddBookToDataStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/client/Kitab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="365" column="39" selection-start-line="365" selection-start-column="39" selection-end-line="365" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3007#3180#0" expanded="true" />
-            <element signature="e#3179#3180#0" expanded="true" />
-            <element signature="e#3214#3396#0" expanded="true" />
-            <element signature="e#3395#3396#0" expanded="true" />
-            <element signature="e#4536#4768#0" expanded="true" />
-            <element signature="e#4767#4768#0" expanded="true" />
-            <element signature="e#4806#5818#0" expanded="true" />
-            <element signature="e#5817#5818#0" expanded="true" />
-            <element signature="e#6951#7192#0" expanded="true" />
-            <element signature="e#7191#7192#0" expanded="true" />
-            <element signature="e#7255#8718#0" expanded="true" />
-            <element signature="e#5056#5057#0" expanded="true" />
-            <element signature="e#5158#5159#0" expanded="true" />
-            <element signature="e#8717#8718#0" expanded="true" />
-            <element signature="e#8761#8929#0" expanded="true" />
-            <element signature="e#8928#8929#0" expanded="true" />
-            <element signature="e#7848#7849#0" expanded="true" />
-            <element signature="e#7927#7928#0" expanded="true" />
-            <element signature="e#7985#7986#0" expanded="true" />
-            <element signature="e#8057#8058#0" expanded="true" />
-            <element signature="e#10569#11048#0" expanded="true" />
-            <element signature="e#11047#11048#0" expanded="true" />
-            <element signature="e#11596#11795#0" expanded="true" />
-            <element signature="e#11794#11795#0" expanded="true" />
-            <element signature="e#7690#7691#0" expanded="true" />
-            <element signature="e#7808#7809#0" expanded="true" />
-            <element signature="e#13613#14238#0" expanded="true" />
-            <element signature="e#14237#14238#0" expanded="true" />
-            <element signature="e#16130#17985#0" expanded="true" />
-            <element signature="e#17984#17985#0" expanded="true" />
-            <element signature="e#10093#10094#0" expanded="true" />
-            <element signature="e#10179#10180#0" expanded="true" />
-            <element signature="e#19780#20883#0" expanded="true" />
-            <element signature="e#20882#20883#0" expanded="true" />
-            <element signature="e#22774#22979#0" expanded="true" />
-            <element signature="e#22978#22979#0" expanded="true" />
-            <element signature="e#23015#24587#0" expanded="true" />
-            <element signature="e#8722#8723#0" expanded="true" />
-            <element signature="e#8829#8830#0" expanded="true" />
-            <element signature="e#24586#24587#0" expanded="true" />
-            <element signature="e#24630#25161#0" expanded="true" />
-            <element signature="e#25160#25161#0" expanded="true" />
-            <element signature="e#25574#26688#0" expanded="true" />
-            <element signature="e#26035#26036#0" expanded="true" />
-            <element signature="e#26118#26119#0" expanded="true" />
-            <element signature="e#26687#26688#0" expanded="true" />
-            <element signature="e#27666#28567#0" expanded="true" />
-            <element signature="e#28129#28130#0" expanded="true" />
-            <element signature="e#28220#28221#0" expanded="true" />
-            <element signature="e#28566#28567#0" expanded="true" />
-            <element signature="e#29810#29960#0" expanded="true" />
-            <element signature="e#29959#29960#0" expanded="true" />
-            <element signature="e#29998#30428#0" expanded="true" />
-            <element signature="e#30427#30428#0" expanded="true" />
-            <element signature="e#30466#30761#0" expanded="true" />
-            <element signature="e#30760#30761#0" expanded="true" />
-            <element signature="e#30797#31146#0" expanded="true" />
-            <element signature="e#31145#31146#0" expanded="true" />
-            <element signature="e#34480#34634#0" expanded="true" />
-            <element signature="e#34633#34634#0" expanded="true" />
-            <element signature="e#35880#37720#0" expanded="true" />
-            <element signature="e#14843#14844#0" expanded="true" />
-            <element signature="e#14962#14963#0" expanded="true" />
-            <element signature="e#37719#37720#0" expanded="true" />
-            <element signature="e#37756#37961#0" expanded="true" />
-            <element signature="e#37960#37961#0" expanded="true" />
-            <element signature="e#38824#39189#0" expanded="true" />
-            <element signature="e#39188#39189#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Kitab.gwt.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        <state relative-caret-position="165">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -1504,7 +1373,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>GWT</last-edited>
+          <last-edited>JPA (shubham)|JPA</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

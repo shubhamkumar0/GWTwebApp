@@ -1,21 +1,16 @@
 package com.example.client;
 
-import com.example.shared.book.AddBookRequest;
-import com.example.shared.book.AddBookResponse;
-import com.example.shared.book.BookDetails;
-import com.example.shared.book.DeleteBookRequest;
-import com.example.shared.book.DeleteBookResponse;
-import com.example.shared.book.UpdateBookRequest;
-import com.example.shared.book.UpdateBookResponse;
+import com.example.shared.book.*;
+//import com.example.shared.book.BookDetailsTable;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.user.client.rpc.RemoteService;
 import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.List;
 
 @RemoteServiceRelativePath("BookService")
 public interface BookService extends RemoteService {
-    //this is the interface of data access layer
     public static class Util
     {
         private static BookServiceAsync instance;
@@ -29,6 +24,7 @@ public interface BookService extends RemoteService {
             return instance;
         }
     }
+
     List<BookDetails> getAllBooks();
     List<String> getAllBooksName();
     Boolean addBook(AddBookRequest addBookRequest);
