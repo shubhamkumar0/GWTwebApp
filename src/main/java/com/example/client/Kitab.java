@@ -1,12 +1,10 @@
 package com.example.client;
 
-import com.example.shared.book.DeleteBookRequest;
+import com.example.shared.book.*;
+//import com.example.shared.book.BookDetailsTable;
 import com.example.shared.login.UserDetails;
 import com.example.shared.search.SearchRequest;
 import com.example.shared.search.SearchResponse;
-import com.example.shared.book.AddBookRequest;
-import com.example.shared.book.BookDetails;
-import com.example.shared.book.UpdateBookRequest;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.dom.client.Style;
@@ -20,12 +18,8 @@ import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.*;
 
-import java.sql.Time;
-import java.time.Duration;
-import java.time.Instant;
 import java.util.Date;
 import java.util.List;
-import java.util.Timer;
 
 import static java.lang.Float.valueOf;
 
@@ -58,7 +52,7 @@ public class Kitab implements EntryPoint {
             @Override
             public void onFailure(Throwable caught)
             {
-                Window.alert("fail");
+                Window.alert("fail checkWithServerIfSessionIdIsStillLegal");
                 LoginPage loginpage = new LoginPage();
             }
 
@@ -114,9 +108,9 @@ public class Kitab implements EntryPoint {
             RootPanel.get("signup").clear();
             RootPanel.get("login").clear();
             RootPanel.get("search2").clear();
-            name.setText("Name");
-            email.setText("email");
-            password.setText("password");
+            name.getElement().setPropertyString("placeholder", "Name");
+            email.getElement().setPropertyString("placeholder", "email");
+            password.getElement().setPropertyString("placeholder", "password");
             RootPanel.get("slot1").add(name);
             RootPanel.get("slot2").add(email);
             RootPanel.get("slot3").add(password);
@@ -165,8 +159,8 @@ public class Kitab implements EntryPoint {
         private LoginServiceAsync loginServiceAsync = GWT.create(LoginService.class);
 
         public LoginPage() {
-            email.setText("email");
-            password.setText("password");
+            email.getElement().setPropertyString("placeholder", "email");
+            password.getElement().setPropertyString("placeholder", "password");
             RootPanel.get("login").clear();
             RootPanel.get("signup").clear();
             RootPanel.get("search2").clear();
@@ -193,7 +187,7 @@ public class Kitab implements EntryPoint {
                     loginServiceAsync.loginServer(email.getText(), password.getText(),checked,
                             new AsyncCallback<UserDetails>() {
                                 public void onFailure(Throwable caught) {
-                                    Window.alert("Login failed.");
+                                    Window.alert("Login failure.");
                                 }
                                 public void onSuccess(UserDetails result) {
                                     if(result.getName() == null) {
@@ -225,7 +219,8 @@ public class Kitab implements EntryPoint {
         BookServiceAsync bookServiceAsync = GWT.create(BookService.class);
         bookServiceAsync.getAllBooksName(new AsyncCallback<List<String>>() {
             public void onFailure(Throwable caught) {
-                Window.alert("Sorry, could not fetch books :|");
+                Window.alert(caught.toString());
+//                Window.alert("Sorry, could not fetch books :|");
             }
 
             public void onSuccess(List<String> result) {
@@ -308,11 +303,11 @@ public class Kitab implements EntryPoint {
                                     public void onSuccess(SearchResponse result) {
                                         //Window.alert("Added the book to library. You can search for it using the book name!");
                                         if (result.getIsavailable() == true) {
-                                            MyDialog myDialog = new MyDialog(result.getBookDetails());
+//                                            MyDialog myDialog = new MyDialog(result.getBookDetails());
                                             int left = Window.getClientWidth()/ 3;
                                             int top = Window.getClientHeight()/ 3;
-                                            myDialog.setPopupPosition(left, top);
-                                            myDialog.show();
+//                                            myDialog.setPopupPosition(left, top);
+//                                            myDialog.show();
                                         } else {
                                             Window.alert("Book not found! :3");
                                         }
@@ -341,7 +336,7 @@ public class Kitab implements EntryPoint {
     }
 
     private static void UpdateListViaHttp(String text) {
-        if(text != "") {
+        if(!text.equals("")) {
             RootPanel.get("bookName").clear();
             final ListBox updatedList = new ListBox();
             updatedList.setVisibleItemCount(10);
@@ -771,6 +766,7 @@ public class Kitab implements EntryPoint {
     private static class GoogleDialog extends DialogBox {
         DockPanel panel = new DockPanel();
         Button ok = new Button("OK");
+        Button add = new Button("Add to My Library");
 
         public GoogleDialog(final BookDetails book) {
 //            Image image = new Image();
@@ -789,6 +785,7 @@ public class Kitab implements EntryPoint {
             panel.add(author,DockPanel.NORTH);
             panel.add(rating,DockPanel.NORTH);
             panel.add(ok,DockPanel.CENTER);
+            panel.add(add,DockPanel.LINE_END);
 //            UrlBuilder url =new UrlBuilder();
 //            if(book.getBookId() != null) {
 //                url.setProtocol("https");
@@ -808,6 +805,26 @@ public class Kitab implements EntryPoint {
             ok.addClickHandler(new ClickHandler() {
                 public void onClick(ClickEvent event) {
                     GoogleDialog.this.hide();
+                }
+            });
+            add.addClickHandler(new ClickHandler() {
+                @Override
+                public void onClick(ClickEvent event) {
+                    final AddBookRequest book_to_be_added = new AddBookRequest();
+                    book_to_be_added.setBookDetails(book);
+                    BookService.Util.getInstance().addBook(book_to_be_added,
+                            new AsyncCallback<Boolean>() {
+                                public void onFailure(Throwable caught) {
+                                    Window.alert("Adding book failed :(");
+                                }
+
+                                public void onSuccess(Boolean result) {
+                                    GoogleDialog.this.hide();
+                                    Window.alert("Added the book to library. You can search for it using the book name!");
+                                    cleareverything();
+                                    getBooks();
+                                }
+                            });
                 }
             });
             setWidget(panel);

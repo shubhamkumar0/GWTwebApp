@@ -1,12 +1,7 @@
 package com.example.client;
 
-import com.example.shared.book.AddBookRequest;
-import com.example.shared.book.AddBookResponse;
-import com.example.shared.book.BookDetails;
-import com.example.shared.book.DeleteBookRequest;
-import com.example.shared.book.DeleteBookResponse;
-import com.example.shared.book.UpdateBookRequest;
-import com.example.shared.book.UpdateBookResponse;
+import com.example.shared.book.*;
+//import com.example.shared.book.BookDetailsTable;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 
 import java.util.List;

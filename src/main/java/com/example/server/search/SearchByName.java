@@ -16,7 +16,7 @@ public class SearchByName {
     private SearchResponse searchDb(SearchRequest searchRequest) {
         assert(searchRequest.getBookName() != null);
         String searchThis = searchRequest.getBookName()+"%";
-        String sql = "Select * from BookDetailstable where bookName like ?";
+        String sql = "Select * from book_details_table where book_name like ?";
         SearchResponse searchResponse = new SearchResponse();
         try {
             Connection conn = connect();
@@ -27,11 +27,11 @@ public class SearchByName {
             assert(rs!=null);
             while(rs.next()) {
                 BookDetails temp = new BookDetails();
-                temp.setBookId(rs.getString("bookId"));
-                temp.setBookName(rs.getString("bookName"));
-                temp.setAuthorName(rs.getString("authorName"));
+                temp.setBookId(rs.getString("book_id"));
+                temp.setBookName(rs.getString("book_name"));
+                temp.setAuthorName(rs.getString("author_name"));
                 temp.setRatings(rs.getFloat("ratings"));
-                temp.setIsAvailable(rs.getBoolean("isAvailable"));
+                temp.setIsAvailable(rs.getBoolean("is_available"));
                 searchResponse.setIsavailable(true);
                 books.add(temp);
             }

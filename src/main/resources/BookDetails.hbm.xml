@@ -1,0 +1,11 @@
+<hibernate-mapping>
+    <class name="com.example.shared.book.BookDetails" table="BookDetailsTable">
+        <id name="bookId" column="bookId">
+            <generator class="native"/>
+        </id>
+        <property name="bookName"/>
+        <property name="authorName"/>
+        <property name="ratings"/>
+        <property name="isAvailable"/>
+    </class>
+</hibernate-mapping>

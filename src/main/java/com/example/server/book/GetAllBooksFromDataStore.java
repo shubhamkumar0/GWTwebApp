@@ -45,7 +45,7 @@ public class GetAllBooksFromDataStore {
     private List<BookDetails> getBookDetailsByBookNameFromDb(String bookName) {
         List<BookDetails> books = new ArrayList<>();
 
-        String sql = "select * from BookDetailsTable where bookName=?";
+        String sql = "select * from book_details_table where book_name=?";
         try {
             Connection conn = connect();
             PreparedStatement ps = conn.prepareStatement(sql);
@@ -53,7 +53,14 @@ public class GetAllBooksFromDataStore {
             ResultSet rs=ps.executeQuery();
             assert (rs != null);
             while (rs.next()) {
-               work(books, rs);
+//               work(books, rs);
+                BookDetails book = new BookDetails();
+                book.setBookId(rs.getString("book_id"));
+                book.setBookName(rs.getString("book_name"));
+                book.setAuthorName(rs.getString("author_name"));
+                book.setRatings(rs.getFloat("ratings"));
+                book.setIsAvailable(rs.getBoolean("is_available"));
+                books.add(book);
             }
             conn.close();
             return books;

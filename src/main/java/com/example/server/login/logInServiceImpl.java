@@ -5,6 +5,7 @@ import com.example.server.login.LogIn.LoginUser;
 import com.example.shared.login.UserDetails;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 import com.example.server.login.SignUp.SignUserUp;
+import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -12,6 +13,7 @@ import java.awt.*;
 import java.sql.*;
 import java.util.Random;
 
+@Component
 public class logInServiceImpl extends RemoteServiceServlet implements LoginService {
 
     @Override

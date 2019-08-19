@@ -1,54 +1,58 @@
-package com.example.server.book.Tables;
-
-import org.hibernate.annotations.Entity;
-import org.springframework.data.annotation.Id;
-
-@Entity
-public class BookDetailsTable {
-    @Id
-    private static String bookId;
-    private static String bookName;
-    private static String authorName;
-    private static Float ratings;
-    private static boolean isAvailable;
-
-    public static String getBookId() {
-        return bookId;
-    }
-
-    public static void setBookId(String bookId) {
-        BookDetailsTable.bookId = bookId;
-    }
-
-    public static String getBookName() {
-        return bookName;
-    }
-
-    public static void setBookName(String bookName) {
-        BookDetailsTable.bookName = bookName;
-    }
-
-    public static String getAuthorName() {
-        return authorName;
-    }
-
-    public static void setAuthorName(String authorName) {
-        BookDetailsTable.authorName = authorName;
-    }
-
-    public static Float getRatings() {
-        return ratings;
-    }
-
-    public static void setRatings(Float ratings) {
-        BookDetailsTable.ratings = ratings;
-    }
-
-    public static boolean getIsAvailable() {
-        return isAvailable;
-    }
-
-    public static void setIsAvailable(boolean isAvailable) {
-        BookDetailsTable.isAvailable = isAvailable;
-    }
-}
+//package com.example.shared.book;
+//
+//import com.google.gwt.user.client.rpc.IsSerializable;
+//
+//import javax.persistence.Entity;
+//import javax.persistence.Id;
+//import javax.persistence.Table;
+//
+//@Entity
+//@Table(name = "BookDetailsTable")
+//public class BookDetailsTable implements IsSerializable {
+//    @Id
+//    private String bookId;
+//    private String bookName;
+//    private String authorName;
+//    private Float ratings;
+//    private boolean isAvailable;
+//
+//    public String getBookId() {
+//        return bookId;
+//    }
+//
+//    public void setBookId(String bookId) {
+//        this.bookId = bookId;
+//    }
+//
+//    public String getBookName() {
+//        return bookName;
+//    }
+//
+//    public void setBookName(String bookName) {
+//        this.bookName = bookName;
+//    }
+//
+//    public String getAuthorName() {
+//        return authorName;
+//    }
+//
+//    public void setAuthorName(String authorName) {
+//        this.authorName = authorName;
+//    }
+//
+//    public Float getRatings() {
+//        return ratings;
+//    }
+//
+//    public void setRatings(Float ratings) {
+//        this.ratings = ratings;
+//    }
+//
+//    public boolean getIsAvailable() {
+//        return isAvailable;
+//    }
+//
+//    public void setIsAvailable(boolean isAvailable) {
+//        this.isAvailable = isAvailable;
+//    }
+//}
